@@ -7,18 +7,27 @@ This repository contains a centralized Email Package and a Test App to demonstra
 ## Folder Structure
 
 ```
-Email/
-├─ Email-package/                # The email package
-│  ├─ src/
-│  │  ├─ emailService/
-│  │  ├─ server.js
-│  │  └─ ...
-│  ├─ db/
-│  │  └─ mongoConnection.js
-│  └─ package.json
-└─ TestApp/                      # Test application to use the email package
-   ├─ index.js
-   └─ package.json
+EMAIL/
+├─ README.md                     # Project documentation
+├─ Email-package/                # The reusable email package
+│  ├─ .env                       # Environment variables
+│  ├─ .gitignore
+│  ├─ package-lock.json
+│  ├─ package.json
+│  ├─ db/                        # Database connection
+│  ├─ logs/                      # Application logs
+│  ├─ node_modules/
+│  └─ src/                       # Source code
+└─ TestApp/                      # Test application
+   ├─ .env                       # Test app environment
+   ├─ .gitignore
+   ├─ index.js                   # Main server file
+   ├─ package-lock.json
+   ├─ package.json
+   ├─ controllers/               # Route controllers
+   ├─ logs/                      # Test app logs
+   ├─ node_modules/
+   └─ Routes/                    # API routes
 ```
 
 ---
