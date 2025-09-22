@@ -1,123 +1,113 @@
-const logger = require("../logger")
+const { logger } = require("../logger");
 
-// helper function for 3sec wait 
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 class RetryHandler {
   constructor(providerManager, options = {}) {
     this.providerManager = providerManager;
-    this.retryDelay = options.retryDelay || 3000; // 3s default
+    this.retryDelay = options.retryDelay || 3000;
   }
 
   async sendWithRetry(source, mailOptions, hooks = {}) {
     const providers = this.providerManager.getProviders();
     if (!providers || providers.length === 0) {
+      logger.error(`[RetryHandler] No providers available`);
       throw new Error("No providers available");
     }
 
-    // Start with requested provider
     let currentProvider = this.providerManager.getProvider(source);
     if (!currentProvider) {
+      logger.error(`[RetryHandler] Provider not found for source: ${source}`);
       throw new Error(`Provider not found for source: ${source}`);
     }
 
-    const triedProviders = new Set();
+    const triedProviders = [];
     let isFirstProvider = true;
     let attemptCount = 1;
 
-    while (currentProvider) {
-      triedProviders.add(currentProvider.source);
-
-    // Trigger onSendStart for first attempt of provider
-    if (attemptCount === 1 && hooks.onSendStart) {
-        hooks.onSendStart({ to: mailOptions.to, source: currentProvider.source });
+    // Fire onSendStart hook (monitoring)
+    if (hooks.onSendStart) {
+      hooks.onSendStart({ to: mailOptions.to, source: currentProvider.source });
     }
+
+    while (currentProvider) {
+      triedProviders.push(currentProvider.source);
+      logger.info(`[RetryHandler] Attempting to send email via ${currentProvider.source}`);
 
       try {
         const result = await currentProvider.send(mailOptions);
+        logger.info(`[RetryHandler] Email sent via ${currentProvider.source}`);
 
-        // Fire first attempt success
         if (attemptCount === 1 && hooks.onSendSuccess) {
           hooks.onSendSuccess({ to: mailOptions.to, source: currentProvider.source });
         }
 
-        // Fire final success
         if (hooks.onFinalSuccess) {
           hooks.onFinalSuccess({ to: mailOptions.to, provider: currentProvider.source });
         }
 
-        return result;
-
+        return { result, provider: currentProvider.source };
       } catch (err) {
-        logger.warn(`[RetryHandler] Attempt failed with ${currentProvider.source}: ${err.message}`);
+        logger.warn(`[RetryHandler] Attempt ${attemptCount} failed with ${currentProvider.source}: ${err.message}`);
 
         if (isFirstProvider) {
-
-          // --- Special handling for the desired source ---
           if (this.isProviderError(err)) {
-            logger.error(`[RetryHandler] Provider-level error (quota/auth). Moving immediately to next provider...`);
+            logger.error(`[RetryHandler] Provider-level error (quota/auth). Switching provider immediately...`);
           } else {
-            logger.info(`[RetryHandler] Retrying same provider "${currentProvider.source}" after ${this.retryDelay}ms...`);
+            // Retry same provider once
+            if (hooks.onRetry) {
+              hooks.onRetry({ to: mailOptions.to, provider: currentProvider.source, attempt: attemptCount + 1 });
+            }
 
+            logger.info(`[RetryHandler] Retrying ${currentProvider.source} after ${this.retryDelay}ms...`);
             await sleep(this.retryDelay);
 
             try {
               const retryResult = await currentProvider.send(mailOptions);
+              logger.info(`[RetryHandler] Retry successful via ${currentProvider.source}`);
 
               if (hooks.onFinalSuccess) {
                 hooks.onFinalSuccess({ to: mailOptions.to, provider: currentProvider.source });
               }
 
-              return retryResult;
-
+              return { result: retryResult, provider: currentProvider.source };
             } catch (retryErr) {
-              logger.warn(`[RetryHandler] Retry also failed with ${currentProvider.source}: ${retryErr.message}`);
+              logger.warn(`[RetryHandler] Retry failed with ${currentProvider.source}: ${retryErr.message}`);
             }
           }
-          isFirstProvider = false; 
-          // from now on, no retries with the same provider
+
+          isFirstProvider = false;
         }
       }
 
-  // Move to next provider
-      const nextProvider = this.getNextProvider(currentProvider.source, providers, triedProviders);
-
+      const nextProvider = this.getNextProvider(currentProvider.source, providers, new Set(triedProviders));
       if (nextProvider) {
-        logger.info(`[RetryHandler] Switching to next provider: ${nextProvider.source} in ${this.retryDelay}ms`);
-
+        logger.info(`[RetryHandler] Switching provider from ${currentProvider.source} to ${nextProvider.source}`);
         if (hooks.onProviderSwitch) {
-          hooks.onProviderSwitch({
-            to: mailOptions.to,
-            fromProvider: currentProvider.source,
-            toProvider: nextProvider.source
-          });
+          hooks.onProviderSwitch({ to: mailOptions.to, fromProvider: currentProvider.source, toProvider: nextProvider.source });
         }
-
         await sleep(this.retryDelay);
       }
+
       currentProvider = nextProvider;
-      attemptCount = 1; 
-      // reset attempt count for new provider
+      attemptCount = 1;
     }
 
-    // All providers failed
+    logger.error(`[RetryHandler] All providers failed to send email to ${mailOptions.to}`);
     if (hooks.onFinalFailure) {
-      hooks.onFinalFailure({ to: mailOptions.to, attemptedProviders: Array.from(triedProviders) });
+      hooks.onFinalFailure({ to: mailOptions.to, attemptedProviders: triedProviders });
     }
-    logger.error("[RetryHandler] All providers failed to send the email");
+
     throw new Error("All providers failed to send the email");
   }
 
-  // Classify provider-level fatal errors
   isProviderError(error) {
     const fatalErrors = ["quota", "limit", "auth", "invalid", "blocked"];
-    return fatalErrors.some(keyword =>
-      error.message.toLowerCase().includes(keyword)
-    );
+    return fatalErrors.some((keyword) => error.message.toLowerCase().includes(keyword));
   }
 
   getNextProvider(currentSource, providers, triedProviders) {
-    const remaining = providers.filter(p => !triedProviders.has(p.source));
+    const remaining = providers.filter((p) => !triedProviders.has(p.source));
     return remaining.length > 0 ? remaining[0] : null;
   }
 }

@@ -1,26 +1,31 @@
+const { logger } = require("../logger");
+
 const emailHooks = {
   onSendStart: ({ to, source }) => {
-    console.log(`[MONITORING HOOK] Sending email to ${to} via ${source}...`);
+    logger.info(`[MONITORING] Sending email to ${to} via ${source}...`, { label: "MONITORING" });
   },
 
   onSendSuccess: ({ to, source }) => {
-    console.log(`[MONITORING HOOK] First attempt success for ${to} via ${source}`);
+    logger.info(`[MONITORING] First attempt success for ${to} via ${source}`, { label: "MONITORING" });
   },
 
   onRetry: ({ to, provider, attempt }) => {
-    console.log(`[MONITORING HOOK] Retry attempt ${attempt} for ${to} via ${provider}`);
+    logger.warn(`[MONITORING] Retry attempt ${attempt} for ${to} via ${provider}`, { label: "MONITORING" });
   },
 
   onProviderSwitch: ({ to, fromProvider, toProvider }) => {
-    console.log(`[MONITORING HOOK] Switching provider from ${fromProvider} to ${toProvider} for ${to}`);
+    logger.warn(`[MONITORING] Switching provider from ${fromProvider} to ${toProvider} for ${to}`, { label: "MONITORING" });
   },
 
   onFinalSuccess: ({ to, provider }) => {
-    console.log(`[MONITORING HOOK] Email sent successfully to ${to} via ${provider}`);
+    logger.info(`[MONITORING] Email sent successfully to ${to} via ${provider}`, { label: "MONITORING" });
   },
 
   onFinalFailure: ({ to, attemptedProviders }) => {
-    console.log(`[MONITORING HOOK] Failed to send email to ${to}. Attempted providers: ${attemptedProviders.join(", ")}`);
+    logger.error(
+      `[MONITORING] Failed to send email to ${to}. Attempted providers: ${attemptedProviders.join(", ")}`,
+      { label: "MONITORING" }
+    );
   }
 };
 

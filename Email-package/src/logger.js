@@ -1,5 +1,6 @@
 const { createLogger, format, transports } = require('winston');
 
+// Main logger for general and error logs
 const logger = createLogger({
   level: 'info',
   format: format.combine(
@@ -7,15 +8,15 @@ const logger = createLogger({
     format.printf(info => `${info.timestamp} [${info.level.toUpperCase()}]: ${info.message}`)
   ),
   transports: [
-    // to console the logs
-  new transports.Console(),
-  
-  // to store error logs only
-  new transports.File({ filename: 'logs/email-error.log', level: 'error' }),
-
-  // to store all logs
-  new transports.File({ filename: 'logs/email-combined.log' }) 
-]
+    new transports.Console(),
+    new transports.File({ filename: 'logs/email-error.log', level: 'error' }),
+    new transports.File({ filename: 'logs/email-combined.log' }),
+    new transports.File({
+      filename: 'logs/email-monitor.log',
+      level: 'info',
+      format: format.combine(format((info) => (info.label === "MONITORING" ? info : false))())
+    })
+  ]
 });
 
-module.exports = logger;
+module.exports = { logger };

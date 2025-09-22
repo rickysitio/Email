@@ -13,3 +13,17 @@
 2025-09-20 11:50:51 [ERROR]: [SmtpProviderDetails] Email failed via "yandex": Missing credentials for "PLAIN"
 2025-09-20 11:50:51 [ERROR]: [RetryHandler] All providers failed to send the email
 2025-09-20 11:50:51 [ERROR]: [sendEmail] Failed to send email to rickys@itio.in via gmail: All providers failed to send the email
+2025-09-22 11:36:36 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 40.100.141.166:2525
+2025-09-22 11:37:00 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.34.198:2525
+2025-09-22 11:37:35 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 40.100.141.166:2525
+2025-09-22 11:37:59 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.34.198:2525
+2025-09-22 11:42:00 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 40.100.141.166:2525
+2025-09-22 11:42:24 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 40.100.141.166:2525
+2025-09-22 11:49:33 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 40.100.141.166:2525
+2025-09-22 11:49:57 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.88.246:2525
+2025-09-22 11:53:43 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.34.198:2525
+2025-09-22 11:54:07 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.88.246:2525
+2025-09-22 11:54:56 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.34.198:2525
+2025-09-22 11:55:20 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.34.198:2525
+2025-09-22 11:58:09 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.88.70:2525
+2025-09-22 11:58:33 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.88.70:2525

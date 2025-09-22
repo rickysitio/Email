@@ -1,6 +1,6 @@
 
 const nodemailer = require("nodemailer");
-const logger =require("../../logger");
+const {logger} =require("../../logger");
 class SmtpProvider {
   constructor(cred) {
     this.source = cred.source; 
@@ -19,14 +19,15 @@ class SmtpProvider {
         rejectUnauthorized: true,
       }
     });
-    logger.info(`[SmtpProviderDetails] Initialized provider "${this.source}" with user "${this.user}" and host "${cred.host}"`);
+    logger.info(`[SmtpProvider] Initialized provider "${this.source}" with user "${this.user}" and host "${cred.host}"`);
+   
+
   }
 
   async init() {
     try {
       await this.transporter.verify();
-      
-      logger.info(`[SmtpProvider] Connection verified for "${this.source}"`);
+      logger.info(`[SmtpProvider] Connection verified for "${this.source}" using secure: ${this.transporter.options.secure}`);
       return true;
     } catch (err) {
       logger.error(`[SmtpProvider] Connection verification failed for "${this.source}": ${err.message}`);
@@ -37,24 +38,29 @@ class SmtpProvider {
   // send mail 
    async send(mail) {
 
-    logger.info(`[SmtpProviderDetails] Sending email via "${this.source}"`);
+    logger.info(`[SmtpProvider] Sending email via "${this.source}"`);
 
-    logger.info(`[SmtpProviderDetails] To: ${mail.to}, CC: ${mail.cc || "N/A"}, BCC: ${mail.bcc || "N/A"}, Subject: ${mail.subject}`);
+    logger.info(`[SmtpProvider] To: ${mail.to}, CC: ${mail.cc || "N/A"}, BCC: ${mail.bcc || "N/A"}, Subject: ${mail.subject}`);
 
     try {
       const result = await this.transporter.sendMail({
         from: this.user,
-        ...mail
+        to: mail.to,
+        cc: mail.cc,
+        bcc: mail.bcc,
+        subject: mail.subject,
+        html: mail.html,
+        text: mail.text,
+        attachments: mail.attachments
       });
-    logger.info(`[SmtpProviderDetails] Email sent successfully via "${this.source}"`);
       return result;
+      
 
     } catch (err) {
-      logger.error(`[SmtpProviderDetails] Email failed via "${this.source}": ${err.message}`);
+      logger.error(`[SmtpProvider] Sending Email failed via "${this.source}": ${err.message}`);
       throw err;
     }
   }
 
 }
-
 module.exports = { SmtpProvider };

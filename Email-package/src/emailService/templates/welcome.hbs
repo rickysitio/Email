@@ -1,2 +1,29 @@
-<h1>Hello {{name}}</h1>
-<p>Welcome to our platform </p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome {{name}}</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #f4f4f4; color: #333; padding: 20px; }
+    .container { background-color: #fff; padding: 20px; border-radius: 8px; max-width: 600px; margin: auto; }
+    .header { font-size: 24px; font-weight: bold; margin-bottom: 10px; }
+    .content { font-size: 16px; line-height: 1.5; }
+    .footer { margin-top: 20px; font-size: 12px; color: #777; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">Welcome, {{name}}!</div>
+    <div class="content">
+      <p>We are thrilled to have you on board.</p>
+      <p>Your assigned username: <strong>{{username}}</strong></p>
+      <p>Registration date: <strong>{{regDate}}</strong></p>
+      <p>Special code for you: <strong>{{promoCode}}</strong></p>
+      <p>{{customMessage}}</p>
+    </div>
+    <div class="footer">
+      &copy; {{year}} Company. All rights reserved.
+    </div>
+  </div>
+</body>
+</html>

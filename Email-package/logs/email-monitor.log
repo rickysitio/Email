@@ -1,293 +1,9 @@
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:27:51 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:27:54 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:27:57 [INFO]: [SmtpProviderDetails] Sending email via "elastic"
-2025-09-20 11:28:00 [INFO]: [SmtpProviderDetails] Sending email via "zoho"
-2025-09-20 11:28:03 [INFO]: [SmtpProviderDetails] Sending email via "outlook"
-2025-09-20 11:28:06 [INFO]: [SmtpProviderDetails] Sending email via "mailersend"
-2025-09-20 11:28:09 [INFO]: [SmtpProviderDetails] Sending email via "smtp2go"
-2025-09-20 11:28:12 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
-2025-09-20 11:28:15 [INFO]: [SmtpProviderDetails] Sending email via "mailjet"
-2025-09-20 11:28:18 [INFO]: [SmtpProviderDetails] Sending email via "Mailchimp"
-2025-09-20 11:28:21 [INFO]: [SmtpProviderDetails] Sending email via "brevo"
-2025-09-20 11:28:24 [INFO]: [SmtpProviderDetails] Sending email via "postmark"
-2025-09-20 11:28:27 [INFO]: [SmtpProviderDetails] Sending email via "yandex"
-2025-09-20 11:30:44 [INFO]: Server ready, DB connected
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:30:44 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:30:47 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:30:50 [INFO]: [SmtpProviderDetails] Sending email via "elastic"
-2025-09-20 11:30:53 [INFO]: [SmtpProviderDetails] Sending email via "zoho"
-2025-09-20 11:30:56 [INFO]: [SmtpProviderDetails] Sending email via "outlook"
-2025-09-20 11:30:59 [INFO]: [SmtpProviderDetails] Sending email via "mailersend"
-2025-09-20 11:31:02 [INFO]: [SmtpProviderDetails] Sending email via "smtp2go"
-2025-09-20 11:31:05 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
-2025-09-20 11:31:08 [INFO]: [SmtpProviderDetails] Sending email via "mailjet"
-2025-09-20 11:31:11 [INFO]: [SmtpProviderDetails] Sending email via "Mailchimp"
-2025-09-20 11:31:14 [INFO]: [SmtpProviderDetails] Sending email via "brevo"
-2025-09-20 11:31:18 [INFO]: [SmtpProviderDetails] Sending email via "postmark"
-2025-09-20 11:31:21 [INFO]: [SmtpProviderDetails] Sending email via "yandex"
-2025-09-20 11:31:47 [INFO]: Server ready, DB connected
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:31:47 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:31:50 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:31:53 [INFO]: [SmtpProviderDetails] Sending email via "elastic"
-2025-09-20 11:31:56 [INFO]: [SmtpProviderDetails] Sending email via "zoho"
-2025-09-20 11:31:59 [INFO]: [SmtpProviderDetails] Sending email via "outlook"
-2025-09-20 11:32:02 [INFO]: [SmtpProviderDetails] Sending email via "mailersend"
-2025-09-20 11:32:05 [INFO]: [SmtpProviderDetails] Sending email via "smtp2go"
-2025-09-20 11:32:08 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
-2025-09-20 11:32:11 [INFO]: [SmtpProviderDetails] Sending email via "mailjet"
-2025-09-20 11:32:14 [INFO]: [SmtpProviderDetails] Sending email via "Mailchimp"
-2025-09-20 11:32:17 [INFO]: [SmtpProviderDetails] Sending email via "brevo"
-2025-09-20 11:32:35 [INFO]: Server ready, DB connected
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:32:35 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:32:38 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:32:41 [INFO]: [SmtpProviderDetails] Sending email via "elastic"
-2025-09-20 11:32:44 [INFO]: [SmtpProviderDetails] Sending email via "zoho"
-2025-09-20 11:32:47 [INFO]: [SmtpProviderDetails] Sending email via "outlook"
-2025-09-20 11:32:50 [INFO]: [SmtpProviderDetails] Sending email via "mailersend"
-2025-09-20 11:32:53 [INFO]: [SmtpProviderDetails] Sending email via "smtp2go"
-2025-09-20 11:32:56 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
-2025-09-20 11:32:59 [INFO]: [SmtpProviderDetails] Sending email via "mailjet"
-2025-09-20 11:33:02 [INFO]: [SmtpProviderDetails] Sending email via "Mailchimp"
-2025-09-20 11:33:05 [INFO]: [SmtpProviderDetails] Sending email via "brevo"
-2025-09-20 11:33:08 [INFO]: [SmtpProviderDetails] Sending email via "postmark"
-2025-09-20 11:33:11 [INFO]: [SmtpProviderDetails] Sending email via "yandex"
-2025-09-20 11:36:23 [INFO]: Server ready, DB connected
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:36:23 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:36:24 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:36:24 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:36:24 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:36:27 [INFO]: [SmtpProviderDetails] Email sent successfully via "gmail"
-2025-09-20 11:41:23 [INFO]: Server ready, DB connected
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:41:23 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:41:26 [INFO]: [SmtpProviderDetails] Email sent successfully via "gmail"
-2025-09-20 11:49:38 [INFO]: Server ready, DB connected
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:49:38 [INFO]: [sendEmail] Providers loaded from DB
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:49:38 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:49:40 [ERROR]: [SmtpProviderDetails] Email failed via "gmail": Missing credentials for "PLAIN"
-2025-09-20 11:49:40 [WARN]: [RetryHandler] Attempt failed with gmail: Missing credentials for "PLAIN"
-2025-09-20 11:49:40 [INFO]: [RetryHandler] Retrying same provider "gmail" after 3000ms...
-2025-09-20 11:49:43 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:49:43 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:49:44 [ERROR]: [SmtpProviderDetails] Email failed via "gmail": Missing credentials for "PLAIN"
-2025-09-20 11:49:44 [WARN]: [RetryHandler] Retry also failed with gmail: Missing credentials for "PLAIN"
-2025-09-20 11:49:44 [INFO]: [RetryHandler] Switching to next provider: elastic in 3000ms
-2025-09-20 11:49:47 [INFO]: [SmtpProviderDetails] Sending email via "elastic"
-2025-09-20 11:49:47 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:49:49 [ERROR]: [SmtpProviderDetails] Email failed via "elastic": Missing credentials for "PLAIN"
-2025-09-20 11:49:49 [WARN]: [RetryHandler] Attempt failed with elastic: Missing credentials for "PLAIN"
-2025-09-20 11:49:49 [INFO]: [RetryHandler] Switching to next provider: zoho in 3000ms
-2025-09-20 11:49:52 [INFO]: [SmtpProviderDetails] Sending email via "zoho"
-2025-09-20 11:49:52 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:49:52 [ERROR]: [SmtpProviderDetails] Email failed via "zoho": Missing credentials for "PLAIN"
-2025-09-20 11:49:52 [WARN]: [RetryHandler] Attempt failed with zoho: Missing credentials for "PLAIN"
-2025-09-20 11:49:52 [INFO]: [RetryHandler] Switching to next provider: outlook in 3000ms
-2025-09-20 11:49:55 [INFO]: [SmtpProviderDetails] Sending email via "outlook"
-2025-09-20 11:49:55 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:16 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.34.198:2525
-2025-09-20 11:50:16 [WARN]: [RetryHandler] Attempt failed with outlook: connect ETIMEDOUT 52.98.34.198:2525
-2025-09-20 11:50:16 [INFO]: [RetryHandler] Switching to next provider: mailersend in 3000ms
-2025-09-20 11:50:19 [INFO]: [SmtpProviderDetails] Sending email via "mailersend"
-2025-09-20 11:50:19 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:20 [ERROR]: [SmtpProviderDetails] Email failed via "mailersend": Missing credentials for "PLAIN"
-2025-09-20 11:50:20 [WARN]: [RetryHandler] Attempt failed with mailersend: Missing credentials for "PLAIN"
-2025-09-20 11:50:20 [INFO]: [RetryHandler] Switching to next provider: smtp2go in 3000ms
-2025-09-20 11:50:23 [INFO]: [SmtpProviderDetails] Sending email via "smtp2go"
-2025-09-20 11:50:23 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:25 [ERROR]: [SmtpProviderDetails] Email failed via "smtp2go": Missing credentials for "PLAIN"
-2025-09-20 11:50:25 [WARN]: [RetryHandler] Attempt failed with smtp2go: Missing credentials for "PLAIN"
-2025-09-20 11:50:25 [INFO]: [RetryHandler] Switching to next provider: mailgun in 3000ms
-2025-09-20 11:50:28 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
-2025-09-20 11:50:28 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:30 [ERROR]: [SmtpProviderDetails] Email failed via "mailgun": Missing credentials for "PLAIN"
-2025-09-20 11:50:30 [WARN]: [RetryHandler] Attempt failed with mailgun: Missing credentials for "PLAIN"
-2025-09-20 11:50:30 [INFO]: [RetryHandler] Switching to next provider: mailjet in 3000ms
-2025-09-20 11:50:33 [INFO]: [SmtpProviderDetails] Sending email via "mailjet"
-2025-09-20 11:50:33 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:34 [ERROR]: [SmtpProviderDetails] Email failed via "mailjet": Missing credentials for "PLAIN"
-2025-09-20 11:50:34 [WARN]: [RetryHandler] Attempt failed with mailjet: Missing credentials for "PLAIN"
-2025-09-20 11:50:34 [INFO]: [RetryHandler] Switching to next provider: Mailchimp in 3000ms
-2025-09-20 11:50:37 [INFO]: [SmtpProviderDetails] Sending email via "Mailchimp"
-2025-09-20 11:50:37 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:37 [ERROR]: [SmtpProviderDetails] Email failed via "Mailchimp": getaddrinfo ENOTFOUND mtp.mandrillapp.com
-2025-09-20 11:50:37 [WARN]: [RetryHandler] Attempt failed with Mailchimp: getaddrinfo ENOTFOUND mtp.mandrillapp.com
-2025-09-20 11:50:37 [INFO]: [RetryHandler] Switching to next provider: brevo in 3000ms
-2025-09-20 11:50:40 [INFO]: [SmtpProviderDetails] Sending email via "brevo"
-2025-09-20 11:50:40 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:41 [ERROR]: [SmtpProviderDetails] Email failed via "brevo": Missing credentials for "PLAIN"
-2025-09-20 11:50:41 [WARN]: [RetryHandler] Attempt failed with brevo: Missing credentials for "PLAIN"
-2025-09-20 11:50:41 [INFO]: [RetryHandler] Switching to next provider: postmark in 3000ms
-2025-09-20 11:50:44 [INFO]: [SmtpProviderDetails] Sending email via "postmark"
-2025-09-20 11:50:44 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:45 [ERROR]: [SmtpProviderDetails] Email failed via "postmark": Missing credentials for "PLAIN"
-2025-09-20 11:50:45 [WARN]: [RetryHandler] Attempt failed with postmark: Missing credentials for "PLAIN"
-2025-09-20 11:50:45 [INFO]: [RetryHandler] Switching to next provider: yandex in 3000ms
-2025-09-20 11:50:48 [INFO]: [SmtpProviderDetails] Sending email via "yandex"
-2025-09-20 11:50:48 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:50:51 [ERROR]: [SmtpProviderDetails] Email failed via "yandex": Missing credentials for "PLAIN"
-2025-09-20 11:50:51 [WARN]: [RetryHandler] Attempt failed with yandex: Missing credentials for "PLAIN"
-2025-09-20 11:50:51 [ERROR]: [RetryHandler] All providers failed to send the email
-2025-09-20 11:50:51 [ERROR]: [sendEmail] Failed to send email to rickys@itio.in via gmail: All providers failed to send the email
-2025-09-20 11:56:26 [INFO]: Server ready, DB connected
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 11:56:26 [INFO]: [sendEmail] Providers loaded from DB
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 11:56:26 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 11:56:29 [INFO]: [SmtpProviderDetails] Email sent successfully via "gmail"
-2025-09-20 11:56:29 [INFO]: [sendEmail] Email sent successfully to rickys@itio.in via gmail
-2025-09-20 12:43:22 [INFO]: Server ready, DB connected
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 12:43:22 [INFO]: [sendEmail] Providers loaded from DB
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 12:43:22 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 12:43:25 [INFO]: [SmtpProviderDetails] Email sent successfully via "gmail"
-2025-09-20 12:43:25 [INFO]: [sendEmail] Email sent successfully to rickys@itio.in via gmail
-2025-09-20 15:15:58 [INFO]: Server ready, DB connected
-2025-09-20 15:15:58 [INFO]: [sendEmail] Providers loaded from DB
-2025-09-20 15:18:59 [INFO]: Server ready, DB connected
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
-2025-09-20 15:19:00 [INFO]: [sendEmail] Providers loaded from DB
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-20 15:19:00 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: N/A, BCC: N/A, Subject: Welcome, Ricky!
-
-2025-09-20 15:19:03 [INFO]: [SmtpProviderDetails] Email sent successfully via "gmail"
 2025-09-22 11:28:37 [INFO]: Server ready, DB connected
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
 2025-09-22 11:28:37 [INFO]: Server ready, DB connected
 2025-09-22 11:28:37 [INFO]: Server ready, DB connected
+2025-09-22 11:28:37 [INFO]: Server ready, DB connected
+2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
@@ -306,8 +22,6 @@
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: , BCC: , Subject: Welcome, Ricky!
 
-2025-09-22 11:28:37 [INFO]: Server ready, DB connected
-2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:28:37 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
@@ -527,11 +241,11 @@
 2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
 2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
 2025-09-22 11:33:58 [INFO]: [MONITORING] Providers loaded from DB
-2025-09-22 11:33:58 [INFO]: [MONITORING] Template rendered for rickysahawork@gmail.com using template "welcome"
-2025-09-22 11:33:58 [INFO]: [MONITORING] onSendStart triggered for rickysahawork@gmail.com via mailgun
-2025-09-22 11:33:58 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailgun, Attempt: 1
-2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
-2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome, Ricky!
+2025-09-22 11:33:58 [INFO]: [MONITORING] Template rendered for rickys@itio.in using template "welcome"
+2025-09-22 11:33:58 [INFO]: [MONITORING] onSendStart triggered for rickys@itio.in via outlook
+2025-09-22 11:33:58 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook, Attempt: 1
+2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Sending email via "outlook"
+2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: , BCC: , Subject: Welcome, Ricky!
 
 2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
@@ -545,11 +259,11 @@
 2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
 2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
 2025-09-22 11:33:58 [INFO]: [MONITORING] Providers loaded from DB
-2025-09-22 11:33:58 [INFO]: [MONITORING] Template rendered for rickys@itio.in using template "welcome"
-2025-09-22 11:33:58 [INFO]: [MONITORING] onSendStart triggered for rickys@itio.in via outlook
-2025-09-22 11:33:58 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook, Attempt: 1
-2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Sending email via "outlook"
-2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: , BCC: , Subject: Welcome, Ricky!
+2025-09-22 11:33:58 [INFO]: [MONITORING] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-22 11:33:58 [INFO]: [MONITORING] onSendStart triggered for rickysahawork@gmail.com via mailgun
+2025-09-22 11:33:58 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailgun, Attempt: 1
+2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
+2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome, Ricky!
 
 2025-09-22 11:33:58 [INFO]: Server ready, DB connected
 2025-09-22 11:33:58 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
@@ -695,10 +409,10 @@
 2025-09-22 11:35:48 [INFO]: [SmtpProviderDetails] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome, Ricky!
 
 2025-09-22 11:35:48 [INFO]: [SmtpProviderDetails] Email sent successfully via "zoho"
-2025-09-22 11:35:48 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
 2025-09-22 11:35:48 [INFO]: [MONITORING] First attempt success for rickys@itio.in via zoho
 2025-09-22 11:35:48 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via zoho
 2025-09-22 11:35:48 [INFO]: [MONITORING] sendEmail completed successfully for rickys@itio.in via zoho
+2025-09-22 11:35:48 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
 2025-09-22 11:35:48 [INFO]: [SmtpProviderDetails] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
 2025-09-22 11:35:48 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:35:48 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
@@ -854,15 +568,15 @@
 2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
 2025-09-22 11:36:15 [INFO]: [MONITORING] Providers loaded from DB
 2025-09-22 11:36:15 [INFO]: [MONITORING] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:36:15 [INFO]: [MONITORING] onSendStart triggered for rickysahawork@gmail.com via mailgun
+2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:36:15 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailgun, Attempt: 1
+2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
 2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Sending email via "mailgun"
+2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome, Ricky!
 
-2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
 2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
 2025-09-22 11:36:15 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
@@ -1412,16 +1126,16 @@
 2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
 2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
 2025-09-22 11:41:39 [INFO]: [MONITORING] Providers loaded from DB
-2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:41:39 [INFO]: [MONITORING] Template rendered for rickys@itio.in using template "welcome"
-2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:41:39 [INFO]: [MONITORING] onSendStart triggered for rickys@itio.in via gmail
-2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
 2025-09-22 11:41:39 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail, Attempt: 1
-2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
 2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: , BCC: , Subject: Welcome, Ricky!
 
+2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
 2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
 2025-09-22 11:41:39 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
@@ -1797,16 +1511,16 @@
 2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
 2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
 2025-09-22 11:53:22 [INFO]: [MONITORING] Providers loaded from DB
+2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:53:22 [INFO]: [MONITORING] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:53:22 [INFO]: [MONITORING] onSendStart triggered for rickysahawork@gmail.com via smtp2go
 2025-09-22 11:53:22 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via smtp2go, Attempt: 1
+2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
 2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Sending email via "smtp2go"
+2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome, Ricky!
 
-2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
-2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
-2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
-2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
 2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
 2025-09-22 11:53:22 [INFO]: [SmtpProviderDetails] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
@@ -2112,12 +1826,12 @@
 2025-09-22 11:54:35 [INFO]: [MONITORING] Providers loaded from DB
 2025-09-22 11:54:35 [INFO]: [MONITORING] Template rendered for rickys@itio.in using template "welcome"
 2025-09-22 11:54:35 [INFO]: [MONITORING] onSendStart triggered for rickys@itio.in via elastic
-2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:54:35 [INFO]: [MONITORING] Sending email to rickys@itio.in via elastic, Attempt: 1
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Sending email via "elastic"
-2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: , BCC: , Subject: Welcome, Ricky!
 
+2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
@@ -2131,11 +1845,11 @@
 2025-09-22 11:54:35 [INFO]: [MONITORING] Template rendered for rickys@itio.in using template "welcome"
 2025-09-22 11:54:35 [INFO]: [MONITORING] onSendStart triggered for rickys@itio.in via gmail
 2025-09-22 11:54:35 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail, Attempt: 1
-2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Sending email via "gmail"
-2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] To: rickys@itio.in, CC: , BCC: , Subject: Welcome, Ricky!
 
+2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
 2025-09-22 11:54:35 [INFO]: [SmtpProviderDetails] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
