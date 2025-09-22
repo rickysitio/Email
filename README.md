@@ -78,43 +78,48 @@ POST /api/mail/send
 
 **Request Payload Example:**
 
-```json
-{
-  "to": "rickys@itio.in",
-  "template": "welcome",
-  "templateData": {"name": "Ricky"},
-  "cc": [],
-  "bcc": [],
-  "attachments": [],
-  "source": "gmail"
-}
-```
-**Note:**  the cc, bcc, attachments are still not supported (it is under progress)
+
+---
+
+## Request Headers
+
+| Header | Value | Description |
+|--------|-------|-------------|
+| `Content-Type` | `multipart/form-data` | Required for file uploads |
+
+
+---
+
+## Request Body (FormData Fields)
+
+| Field | Type 
+|-------|------
+| `to` | text 
+  `cc`| text
+  `bcc`| text
+| `template` |text 
+| `template data` |text
+| `source` | text 
+| `attachments` | file 
+
+## Request Body (FormData Fields Example)
+
+| Field | Type
+|-------|------
+| `to` | rickys@itio.in
+|  `cc`| pawneshk@itio.in
+| `bcc`| rickysahawork@gmail.com
+| `template` |welcome 
+| `template data` |{"name": "Ricky","username": "ricky123","regDate": "2025-09-22","promoCode": "WELCOME2025","customMessage": "Enjoy your first month free!","year": "2025"}
+| `attachments` | file 
+| `source` | gmail 
+
+---
+
+
+
 
 ⚠️ **Note:** Some SMTP providers may have constraints on the "to" address due to free tier limitations. Adjust the `to` field accordingly.
-
----
-
-## Features
-
-- **Centralized Email Service**: Reusable email package that can be integrated into multiple applications
-- **Template Support**: Dynamic email templates with data interpolation
-- **Multiple Recipients**: Support for CC and BCC recipients
-- **File Attachments**: Send emails with file attachments
-- **Provider Management**: Automatic provider switching and retry logic
-- **Hooks System**: Monitoring and custom event handling for email operations
-- **Database Integration**: MongoDB integration for provider configuration
-
----
-
-## Environment Variables
-
-Make sure to create a `.env` file in the **Email-package** directory with the following variables:
-(Although .env is intentionally  included for the testing purpose)
-
-```env
-MONGO_URI=mongodb+srv://your-username:your-password@cluster0.xxxxx.mongodb.net/your-database-name
-```
 
 ---
 
