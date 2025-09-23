@@ -4136,3 +4136,23 @@
 2025-09-23 11:56:47 [INFO]: [sendEmail function] Email send response: {
   "messageId": "abc"
 }
+2025-09-23 13:17:47 [INFO]: [RetryHandler] Retrying mock after 3000ms...
+2025-09-23 13:17:47 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 13:17:47 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 13:17:47 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 13:17:47 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 13:17:47 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 13:17:47 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 13:17:47 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 13:22:02 [INFO]: [RetryHandler] Retrying mock after 3000ms...
+2025-09-23 13:22:02 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 13:22:02 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 13:22:02 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 13:22:02 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 13:22:02 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 13:22:02 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 13:22:02 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}

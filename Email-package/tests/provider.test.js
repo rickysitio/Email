@@ -32,17 +32,20 @@ jest.mock('../src/logger', () => ({
   logger: { info: jest.fn(), error: jest.fn(), debug: jest.fn() }
 }));
 
-// Import ProviderManager (only once)
+// Import ProviderManager 
 const { ProviderManager } = require('../src/emailService/providerManager');
 
 describe('ProviderManager', () => {
   let providerManager;
 
+  // Reset mocks and create new instance before each test
   beforeEach(async () => {
     jest.clearAllMocks();
     providerManager = new ProviderManager();
   });
 
+
+  //-------------------- Test-----------------------------
   test('should initialize and load providers from database', async () => {
     await providerManager.init();
     const providers = providerManager.getProviders();

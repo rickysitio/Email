@@ -30,7 +30,6 @@ async function sendEmail({
     throw err;
   }
 
-
   // Render email template
   const { subject, html, text } = templater.renderTemplate(template, templateData);
   logger.info(`[sendEmail function] Template rendered for ${to} using template "${template}"`);
@@ -48,6 +47,7 @@ async function sendEmail({
     );
     logger.info(`[sendEmail function] sendEmail completed successfully for ${to} via ${actualProvider}`);
     logger.info(`[sendEmail function] Email send response: ${JSON.stringify(result, null, 2)}`);
+    
     return { success: true, result };
   } catch (err) {
     logger.error(`[sendEmail function] sendEmail failed for ${to} via ${source}: ${err.message}`);

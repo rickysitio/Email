@@ -1,4 +1,3 @@
-// tests/sendEmail.test.js
 
 // Mock send function for providers
 const mockSend = jest.fn().mockResolvedValue({ messageId: 'abc' });
@@ -27,6 +26,7 @@ describe('sendEmail', () => {
     jest.clearAllMocks(); // Clear call history for mocks
   });
 
+  //-------------------- test---------------------------------
   test('should send email successfully', async () => {
     const result = await sendEmail({
       to: 'test@example.com',

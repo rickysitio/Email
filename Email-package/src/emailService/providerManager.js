@@ -1,10 +1,6 @@
-//--------------------Caching & refresh logic----------------------------
-// ProviderManager.js
-
 const EmailCredential = require('../../db/Schema/smtpconfigs');
 const { SmtpProvider } = require("./providers/smtpProvider");
 const { logger } = require("../logger");
-
 
 class ProviderManager {
   constructor(options = {}) {
@@ -14,7 +10,6 @@ class ProviderManager {
     this.initPromise = null;       // To prevent duplicate init calls in concurrency
   }
 
-  
    //Initialize providers
   async init() {
     const now = Date.now();
@@ -63,12 +58,6 @@ class ProviderManager {
     await this.init();
     logger.info("[ProviderManager] Providers refreshed manually");
   }
-
-  
-  // // Register a provider manually (optional)
-  // register(provider) {
-  //   this.providers.push(provider);
-  // }
 
   // Get all loaded providers 
   getProviders() {

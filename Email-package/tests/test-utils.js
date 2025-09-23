@@ -36,6 +36,7 @@ class MockProviderManager {
 }
 
 // Suppress console logs during tests
+// In order to Prevent cluttering test output with console logs
 beforeAll(() => {
   jest.spyOn(console, "log").mockImplementation(() => {});
   jest.spyOn(console, "error").mockImplementation(() => {});

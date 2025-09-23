@@ -497,3 +497,15 @@
 2025-09-23 11:02:53 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0122.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:32:52.842Z 08DDFA0EDCAF5576]
 2025-09-23 11:02:53 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
 2025-09-23 11:03:10 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 873ms | Message Time: 11830ms
+2025-09-23 12:22:47 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 12:22:54 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0038.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T06:52:54.145Z 08DDF94C72332DCD]
+2025-09-23 12:22:54 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 12:23:12 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 814ms | Message Time: 12456ms
+2025-09-23 12:41:49 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 12:41:57 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0197.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T07:11:56.640Z 08DDF936137184B4]
+2025-09-23 12:41:57 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 12:42:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 851ms | Message Time: 12277ms
+2025-09-23 12:42:30 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 12:42:37 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0067.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T07:12:37.142Z 08DDFA38F621B610]
+2025-09-23 12:42:37 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 12:42:55 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 867ms | Message Time: 12162ms
