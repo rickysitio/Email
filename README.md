@@ -71,7 +71,7 @@ http://127.0.0.1:4000
 ## API Endpoint
 
 ### Send Email
-
+set the base URL to `http://localhost:4000.
 ```
 POST /api/mail/send
 ```
@@ -220,12 +220,6 @@ Sends successfully via mock provider
 
 - **Scalability Ready**  
   Designed to be easily migrated into a microservice in the future.
-
-
-## Testing with Postman
-
-You can test the API using the provided Postman collection. Import the collection and set the base URL to `http://localhost:4000`.
-
 
 ## Notes
 
