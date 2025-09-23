@@ -115,9 +115,14 @@ POST /api/mail/send
 | `source` | gmail 
 
 ---
-
-
-
+**Currently Supported Providers:**  
+    - Gmail  
+    - Zoho Mail  
+    - MailerSend  
+    - SMTP2Go  
+    - Elastic Email  
+    - Mailgun  
+    - Yandex  
 
 ⚠️ **Note:** Some SMTP providers may have constraints on the "to" address due to free tier limitations. Adjust the `to` field accordingly.
 
