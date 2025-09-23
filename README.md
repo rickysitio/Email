@@ -133,7 +133,6 @@ POST /api/mail/send
 The Email Package includes unit tests to validate its functionality.
 ```
 cd Email-package
-npm install
 npm test
 ```
 ### 3. Test Coverage (Current)
