@@ -164,6 +164,59 @@ No real email is sent, only simulates behavior
 Template rendering is mocked and validated
 
 Sends successfully via mock provider
+
+## ✅ Completed Features
+
+- **Centralized Email Package**  
+  All services can now use a common package (`sendEmail`) for sending emails.
+
+- **Standardized API**  
+  Simple interface: `sendEmail(to, subject, template, data, source)` usable across apps.
+
+- **Provider Management (DB-driven)**  
+  - Providers (Gmail, Zoho, ElasticMail, etc.) are fetched from MongoDB.  
+  - Cached in memory to avoid redundant DB calls.  
+  - Refresh functionality to reload providers.  
+  - Prevents concurrent initialization.
+
+- **Retry & Error Handling**  
+  - Retries sending emails if a provider fails.  
+  - Switches to another provider automatically.  
+  - Stops retrying once a provider succeeds.
+
+- **Template Management**  
+  - Dynamic template rendering with placeholders (`{{name}}`, `{{username}}`, etc.).  
+  - Templates can be reused across services.
+
+- **Attachments, CC & BCC Support**  
+  Supports file attachments along with `cc` and `bcc` fields.
+
+- **Logging (Winston)**  
+  - Centralized logs stored under `logs/` directory.  
+  - Separate monitoring, combined, and error logs.  
+  - Useful for debugging and audit trail.
+
+- **Monitoring Hooks**  
+  Observability hooks added for:  
+  - Send initiation  
+  - Retry attempts  
+  - Provider switches  
+  - Final success/failure
+
+- **Unit Testing (Jest)**  
+  - ProviderManager tested for caching, refresh, and error handling.  
+  - RetryHandler tested for success/failure retries.  
+  - Mock SMTP Providers added for isolated testing.  
+  - sendEmail flow tested with mocked template rendering.
+
+- **Security & Config Management**  
+  - Credentials stored in DB and `.env`, not hardcoded.  
+  - TLS/secure configs supported depending on provider.
+
+- **Scalability Ready**  
+  Designed to be easily migrated into a microservice in the future.
+
+
 ## Testing with Postman
 
 You can test the API using the provided Postman collection. Import the collection and set the base URL to `http://localhost:4000`.
