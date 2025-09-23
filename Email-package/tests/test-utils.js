@@ -1,4 +1,3 @@
-// tests/test-utils.js
 const { RetryHandler } = require("../src/emailService/retry");
 
 // Mock SmtpProvider
@@ -21,13 +20,6 @@ class MockSmtpProvider {
   }
 }
 
-// Mock RetryHandler
-class MockRetryHandler extends RetryHandler {
-  async sendWithRetry(source, mailOptions) {
-    return { result: { messageId: "mock-msg-123" }, provider: source || "mock" };
-  }
-}
-
 // Mock ProviderManager
 class MockProviderManager {
   getProviders() {
@@ -36,6 +28,10 @@ class MockProviderManager {
 
   getProvider(source) {
     return new MockSmtpProvider({ source });
+  }
+
+  async init() {
+    return true;
   }
 }
 
@@ -46,11 +42,10 @@ beforeAll(() => {
 });
 
 afterAll(() => {
-  jest.restoreAllMocks(); // restores all mocks safely
+  jest.restoreAllMocks();
 });
 
 module.exports = {
   MockSmtpProvider,
-  MockRetryHandler,
   MockProviderManager,
 };

@@ -24,22 +24,21 @@ class SmtpProvider {
 
   }
 
-  async init() {
-    try {
-      await this.transporter.verify();
-      logger.info(`[SmtpProvider] Connection verified for "${this.source}" using secure: ${this.transporter.options.secure}`);
-      return true;
-    } catch (err) {
-      logger.error(`[SmtpProvider] Connection verification failed for "${this.source}": ${err.message}`);
-      throw err;
-    }
-  }
+  // async init() {
+  //   try {
+  //     await this.transporter.verify();
+  //     logger.info(`[SmtpProvider] Connection verified for "${this.source}" using secure: ${this.transporter.options.secure}`);
+  //     return true;
+  //   } catch (err) {
+  //     logger.error(`[SmtpProvider] Connection verification failed for "${this.source}": ${err.message}`);
+  //     throw err;
+  //   }
+  // }
 
   // send mail 
    async send(mail) {
 
     logger.info(`[SmtpProvider] Sending email via "${this.source}"`);
-
     logger.info(`[SmtpProvider] To: ${mail.to}, CC: ${mail.cc || "N/A"}, BCC: ${mail.bcc || "N/A"}, Subject: ${mail.subject}`);
 
     try {

@@ -27,3 +27,14 @@
 2025-09-22 11:55:20 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.34.198:2525
 2025-09-22 11:58:09 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.88.70:2525
 2025-09-22 11:58:33 [ERROR]: [SmtpProviderDetails] Email failed via "outlook": connect ETIMEDOUT 52.98.88.70:2525
+2025-09-23 11:12:20 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4PR01CA0006.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:42:19.402Z 08DDF99F27B04C4C]
+2025-09-23 11:12:20 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4PR01CA0006.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:42:19.402Z 08DDF99F27B04C4C]
+2025-09-23 11:16:58 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0161.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:46:57.457Z 08DDF9002A1A1E40]
+2025-09-23 11:16:58 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0161.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:46:57.457Z 08DDF9002A1A1E40]
+2025-09-23 11:20:22 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0129.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:50:21.309Z 08DDF97333F08638]
+2025-09-23 11:20:22 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0129.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:50:21.309Z 08DDF97333F08638]
+2025-09-23 11:32:50 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:33:06 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:33:30 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:36:09 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:40:45 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')

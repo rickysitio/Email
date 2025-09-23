@@ -426,3 +426,74 @@
 2025-09-22 15:28:42 [WARN]: [MONITORING] Retry attempt 2 for rickys@itio.in via outlook
 2025-09-22 15:29:01 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
 2025-09-22 15:29:22 [WARN]: [MONITORING] Retry attempt 2 for rickys@itio.in via outlook
+2025-09-23 09:20:01 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 09:20:08 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 09:20:26 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 09:20:26 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 09:36:36 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 09:36:44 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 09:37:01 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 09:37:01 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 09:37:25 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 09:37:32 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 09:37:49 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 09:37:49 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 09:38:05 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 09:38:12 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 09:38:30 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 09:38:30 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 09:44:22 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 09:44:29 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 09:44:47 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 09:44:47 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 09:45:05 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 09:45:13 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 09:45:30 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 09:45:30 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 10:10:19 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 10:10:28 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 10:10:46 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:10:46 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 10:15:01 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 10:15:08 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 10:15:26 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:15:26 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 10:15:57 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 10:16:04 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 10:16:22 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:16:22 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 10:20:08 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 10:20:16 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0159.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:50:15.316Z 08DDF99A9BD508A7]
+2025-09-23 10:20:16 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 10:20:32 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:20:32 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
+2025-09-23 10:27:52 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 10:28:00 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0167.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:57:59.674Z 08DDF9681726DBE9]
+2025-09-23 10:28:00 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 10:28:17 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:28:17 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail | Duration: undefinedms | Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 10:31:27 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 10:31:41 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:31:41 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail | Duration: undefinedms | Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 10:33:22 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 10:33:37 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:33:37 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail | Duration: undefinedms | Envelope Time: 939ms | Message Time: 12074ms
+2025-09-23 10:35:09 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 10:35:23 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:35:23 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail | Duration: undefinedms | Envelope Time: 824ms | Message Time: 11862ms
+2025-09-23 10:36:13 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 10:36:27 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:36:27 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail | Duration: undefinedms | Envelope Time: 838ms | Message Time: 12085ms
+2025-09-23 10:36:58 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 10:37:13 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
+2025-09-23 10:37:13 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 834ms | Message Time: 12455ms
+2025-09-23 10:41:25 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 10:41:40 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 881ms | Message Time: 12323ms
+2025-09-23 10:41:48 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 10:41:56 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4P287CA0058.INDP287.PROD.OUTLOOK.COM 2025-09-23T05:12:02.378Z 08DDF8F865A20DCC]
+2025-09-23 10:41:56 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 10:42:13 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 842ms | Message Time: 11727ms
+2025-09-23 11:02:46 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 11:02:53 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0122.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:32:52.842Z 08DDFA0EDCAF5576]
+2025-09-23 11:02:53 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 11:03:10 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 873ms | Message Time: 11830ms

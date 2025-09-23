@@ -2496,3 +2496,1643 @@
 2025-09-22 11:58:40 [INFO]: [MONITORING] First attempt success for rickys@itio.in via gmail
 2025-09-22 11:58:40 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail
 2025-09-22 11:58:40 [INFO]: [MONITORING] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:12:11 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:11 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:12:11 [INFO]: [MONITORING] Sending email to rickys@itio.in via zoho...
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Sending email via "zoho"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:11 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:11 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:11 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:12:11 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via yandex...
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Sending email via "yandex"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:11 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:11 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:12:11 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via smtp2go...
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Sending email via "smtp2go"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:11 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:12:11 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:12:11 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-23 11:12:11 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:11 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:12 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:12 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:12 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:12:12 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailersend...
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Sending email via "mailersend"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:12 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:12 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:12 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:12 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:12:12 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailgun...
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Sending email via "mailgun"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:12 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:12 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:12:12 [INFO]: [MONITORING] Sending email to rickys@itio.in via elastic...
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Sending email via "elastic"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:12 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:12 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:12:12 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:12 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:12 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:12 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:12:12 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:12 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:12:12 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:12:12 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:12:12 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:12:12 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:12 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via zoho| Envelope Time: 129ms | Message Time: 239ms
+2025-09-23 11:12:12 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via zoho
+2025-09-23 11:12:12 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "AUTH LOGIN PLAIN",
+    "SIZE 53477376"
+  ],
+  "envelopeTime": 129,
+  "messageTime": 239,
+  "messageSize": 2289,
+  "response": "250 Message received",
+  "envelope": {
+    "from": "saharicky@zohomail.in",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<935fa8ec-8d7f-4391-e7da-f4a897d502fd@zohomail.in>"
+}
+2025-09-23 11:12:14 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via mailersend| Envelope Time: 527ms | Message Time: 337ms
+2025-09-23 11:12:14 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via mailersend
+2025-09-23 11:12:14 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "8BITMIME",
+    "SMTPUTF8",
+    "AUTH LOGIN PLAIN"
+  ],
+  "envelopeTime": 527,
+  "messageTime": 337,
+  "messageSize": 2346,
+  "response": "250 Message queued as 68d233356036c6a49ad1dee3",
+  "envelope": {
+    "from": "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<54bcac39-dbdb-1aae-1370-7d0185ca7391@test-vz9dlem0p2n4kj50.mlsender.net>"
+}
+2025-09-23 11:12:14 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via mailgun| Envelope Time: 719ms | Message Time: 296ms
+2025-09-23 11:12:14 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via mailgun
+2025-09-23 11:12:14 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "AUTH PLAIN LOGIN",
+    "SIZE 52428800",
+    "8BITMIME",
+    "SMTPUTF8",
+    "PIPELINING"
+  ],
+  "envelopeTime": 719,
+  "messageTime": 296,
+  "messageSize": 2380,
+  "response": "250 Great success",
+  "envelope": {
+    "from": "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<5570b669-b64b-fc3a-9ffa-58f05bfdae8a@sandboxbc0d753503814ce498c67839611dca09.mailgun.org>"
+}
+2025-09-23 11:12:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 745ms | Message Time: 649ms
+2025-09-23 11:12:15 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:12:15 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 745,
+  "messageTime": 649,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606134 d2e1a72fcca58-77f30749642sm5601543b3a.100 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<23cc2162-32fe-ab81-b8b2-39f60649a925@gmail.com>"
+}
+2025-09-23 11:12:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 743ms | Message Time: 745ms
+2025-09-23 11:12:15 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:12:15 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 743,
+  "messageTime": 745,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606134 d9443c01a7336-269803601a5sm151011885ad.141 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<db73693e-0c56-7b57-734d-7a0642c537ff@gmail.com>"
+}
+2025-09-23 11:12:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via elastic| Envelope Time: 758ms | Message Time: 253ms
+2025-09-23 11:12:15 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via elastic
+2025-09-23 11:12:15 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "SIZE 20971520",
+    "8BITMIME",
+    "AUTH=PLAIN LOGIN CRAM-MD5",
+    "AUTH PLAIN LOGIN CRAM-MD5",
+    "OK"
+  ],
+  "envelopeTime": 758,
+  "messageTime": 253,
+  "messageSize": 2289,
+  "response": "250 OK 581ba001-c222-4056-6001-4ea13388831c",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<d683c56a-0cb9-01dd-0c3f-0bbd8692034c@gmail.com>"
+}
+2025-09-23 11:12:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 760ms | Message Time: 734ms
+2025-09-23 11:12:15 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:12:15 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 760,
+  "messageTime": 734,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606134 d9443c01a7336-269802e079esm150296325ad.91 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<2154ec7f-1ebf-c47c-6992-e8169b9ce0db@gmail.com>"
+}
+2025-09-23 11:12:15 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via smtp2go| Envelope Time: 1101ms | Message Time: 535ms
+2025-09-23 11:12:15 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via smtp2go
+2025-09-23 11:12:15 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 52428800",
+    "LIMITS MAILMAX=5000 RCPTMAX=50000",
+    "8BITMIME",
+    "DSN",
+    "PIPELINING",
+    "PIPECONNECT",
+    "AUTH CRAM-MD5 PLAIN LOGIN",
+    "CHUNKING",
+    "PRDR",
+    "HELP"
+  ],
+  "envelopeTime": 1101,
+  "messageTime": 535,
+  "messageSize": 2287,
+  "response": "250 OK id=1v0vn4-FnQW0hPpJEG-My8u",
+  "envelope": {
+    "from": "rickys@itio.in",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<2a7c72e0-5eb9-f135-f1ee-d866df17cde0@itio.in>"
+}
+2025-09-23 11:12:16 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via yandex| Envelope Time: 1026ms | Message Time: 400ms
+2025-09-23 11:12:16 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via yandex
+2025-09-23 11:12:16 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "8BITMIME",
+    "PIPELINING",
+    "SIZE 53477376",
+    "STARTTLS",
+    "AUTH LOGIN PLAIN XOAUTH2",
+    "DSN",
+    "ENHANCEDSTATUSCODES"
+  ],
+  "envelopeTime": 1026,
+  "messageTime": 400,
+  "messageSize": 2296,
+  "response": "250 2.0.0 Ok: queued on mail-nwsmtp-smtp-production-main-81.vla.yp-c.yandex.net 1758606135-BgPLVf4LwiE0-BOjKDycQ",
+  "envelope": {
+    "from": "rickysaha@yandex.com",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<47ce16d8-aa1b-535f-ae6e-4058bb6109f0@yandex.com>"
+}
+2025-09-23 11:12:20 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4PR01CA0006.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:42:19.402Z 08DDF99F27B04C4C]
+2025-09-23 11:12:20 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4PR01CA0006.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:42:19.402Z 08DDF99F27B04C4C]
+2025-09-23 11:12:20 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4PR01CA0006.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:42:19.402Z 08DDF99F27B04C4C]
+2025-09-23 11:12:20 [INFO]: [RetryHandler] Switching provider from outlook to gmail
+2025-09-23 11:12:20 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 11:12:23 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:12:23 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:12:25 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 729ms | Message Time: 591ms
+2025-09-23 11:12:25 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:12:25 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 729,
+  "messageTime": 591,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606145 d9443c01a7336-269803601a5sm151016875ad.141 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<6f788ea3-a503-ad7c-5674-d8735de44010@gmail.com>"
+}
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via yandex...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "yandex"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickys@itio.in via zoho...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "zoho"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via smtp2go...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "smtp2go"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailersend...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "mailersend"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailgun...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "mailgun"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:16:50 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:16:50 [INFO]: [MONITORING] Sending email to rickys@itio.in via elastic...
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] Sending email via "elastic"
+2025-09-23 11:16:50 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:50 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:51 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:51 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:51 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:51 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:16:51 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:16:51 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:16:51 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:16:51 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:16:51 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:16:51 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:16:51 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:16:51 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:16:51 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via zoho| Envelope Time: 153ms | Message Time: 141ms
+2025-09-23 11:16:51 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via zoho
+2025-09-23 11:16:51 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "AUTH LOGIN PLAIN",
+    "SIZE 53477376"
+  ],
+  "envelopeTime": 153,
+  "messageTime": 141,
+  "messageSize": 2289,
+  "response": "250 Message received",
+  "envelope": {
+    "from": "saharicky@zohomail.in",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<2c4720ab-13f1-eb1c-0f5c-e1ec67a13633@zohomail.in>"
+}
+2025-09-23 11:16:53 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via mailersend| Envelope Time: 493ms | Message Time: 320ms
+2025-09-23 11:16:53 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via mailersend
+2025-09-23 11:16:53 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "8BITMIME",
+    "SMTPUTF8",
+    "AUTH LOGIN PLAIN"
+  ],
+  "envelopeTime": 493,
+  "messageTime": 320,
+  "messageSize": 2346,
+  "response": "250 Message queued as 68d2344c1600c2ebdd31dd3c",
+  "envelope": {
+    "from": "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<94f90579-0842-9b04-2005-5cf3eda59d5b@test-vz9dlem0p2n4kj50.mlsender.net>"
+}
+2025-09-23 11:16:53 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via mailgun| Envelope Time: 710ms | Message Time: 291ms
+2025-09-23 11:16:53 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via mailgun
+2025-09-23 11:16:53 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "AUTH PLAIN LOGIN",
+    "SIZE 52428800",
+    "8BITMIME",
+    "SMTPUTF8",
+    "PIPELINING"
+  ],
+  "envelopeTime": 710,
+  "messageTime": 291,
+  "messageSize": 2380,
+  "response": "250 Great success",
+  "envelope": {
+    "from": "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<50ea09b3-2851-9c9f-3599-af005d9abbcb@sandboxbc0d753503814ce498c67839611dca09.mailgun.org>"
+}
+2025-09-23 11:16:53 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 788ms | Message Time: 617ms
+2025-09-23 11:16:53 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:16:53 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 788,
+  "messageTime": 617,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606412 41be03b00d2f7-b5531d90d1asm8364616a12.18 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<30ba082c-58d7-af1f-a70c-f9ee80fe84f4@gmail.com>"
+}
+2025-09-23 11:16:53 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via smtp2go| Envelope Time: 781ms | Message Time: 265ms
+2025-09-23 11:16:53 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via smtp2go
+2025-09-23 11:16:53 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 52428800",
+    "LIMITS MAILMAX=5000 RCPTMAX=50000",
+    "8BITMIME",
+    "DSN",
+    "PIPELINING",
+    "PIPECONNECT",
+    "AUTH CRAM-MD5 PLAIN LOGIN",
+    "CHUNKING",
+    "PRDR",
+    "HELP"
+  ],
+  "envelopeTime": 781,
+  "messageTime": 265,
+  "messageSize": 2287,
+  "response": "250 OK id=1v0vrY-FnQW0hPlzRV-ebjC",
+  "envelope": {
+    "from": "rickys@itio.in",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<c38219d1-3ff7-19a1-92ce-d2901e5855a0@itio.in>"
+}
+2025-09-23 11:16:54 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 892ms | Message Time: 634ms
+2025-09-23 11:16:54 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:16:54 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 892,
+  "messageTime": 634,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606413 d2e1a72fcca58-77f4d204aa7sm2129803b3a.44 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<9ec2e701-dd59-0c1e-7c11-d7ded6695b62@gmail.com>"
+}
+2025-09-23 11:16:54 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via elastic| Envelope Time: 836ms | Message Time: 280ms
+2025-09-23 11:16:54 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via elastic
+2025-09-23 11:16:54 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "SIZE 20971520",
+    "8BITMIME",
+    "AUTH=PLAIN LOGIN CRAM-MD5",
+    "AUTH PLAIN LOGIN CRAM-MD5",
+    "OK"
+  ],
+  "envelopeTime": 836,
+  "messageTime": 280,
+  "messageSize": 2289,
+  "response": "250 OK 581ba058-d223-81bb-0058-fcf86ad1dbfe",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<84e955d1-be9d-2e7b-172c-5eb0aecd1433@gmail.com>"
+}
+2025-09-23 11:16:54 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 894ms | Message Time: 972ms
+2025-09-23 11:16:54 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:16:54 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 894,
+  "messageTime": 972,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606413 d2e1a72fcca58-77f0401bdfcsm10405346b3a.76 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<8bd228e7-919b-a6f1-7155-5544745ebc9f@gmail.com>"
+}
+2025-09-23 11:16:54 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via yandex| Envelope Time: 1031ms | Message Time: 438ms
+2025-09-23 11:16:54 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via yandex
+2025-09-23 11:16:54 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "8BITMIME",
+    "PIPELINING",
+    "SIZE 53477376",
+    "STARTTLS",
+    "AUTH LOGIN PLAIN XOAUTH2",
+    "DSN",
+    "ENHANCEDSTATUSCODES"
+  ],
+  "envelopeTime": 1031,
+  "messageTime": 438,
+  "messageSize": 2296,
+  "response": "250 2.0.0 Ok: queued on mail-nwsmtp-smtp-production-main-80.klg.yp-c.yandex.net 1758606413-okP1N94L3uQ0-ns9CWTO3",
+  "envelope": {
+    "from": "rickysaha@yandex.com",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<b5625618-6f82-2592-93ce-cb69567efe99@yandex.com>"
+}
+2025-09-23 11:16:58 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0161.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:46:57.457Z 08DDF9002A1A1E40]
+2025-09-23 11:16:58 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0161.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:46:57.457Z 08DDF9002A1A1E40]
+2025-09-23 11:16:58 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0161.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:46:57.457Z 08DDF9002A1A1E40]
+2025-09-23 11:16:58 [INFO]: [RetryHandler] Switching provider from outlook to gmail
+2025-09-23 11:16:58 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 11:17:01 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:17:01 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:17:04 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 838ms | Message Time: 595ms
+2025-09-23 11:17:04 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:17:04 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 838,
+  "messageTime": 595,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606423 d9443c01a7336-26980319870sm150590595ad.120 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<2f78e17f-3684-c7f0-563b-062002cded5e@gmail.com>"
+}
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickys@itio.in via zoho...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "zoho"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via yandex...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "yandex"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via smtp2go...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "smtp2go"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailgun...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "mailgun"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickysahawork@gmail.com using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickysahawork@gmail.com
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickysahawork@gmail.com via mailersend...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "mailersend"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickysahawork@gmail.com, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickys@itio.in via elastic...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "elastic"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:20:14 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:14 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp.office365.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-23 11:20:14 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-23 11:20:14 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-23 11:20:14 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Template rendered for rickys@itio.in using template "welcome"
+2025-09-23 11:20:14 [INFO]: [sendEmail function] Mail options prepared for rickys@itio.in
+2025-09-23 11:20:15 [INFO]: [MONITORING] Sending email to rickys@itio.in via gmail...
+2025-09-23 11:20:15 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:20:15 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via zoho| Envelope Time: 134ms | Message Time: 186ms
+2025-09-23 11:20:15 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via zoho
+2025-09-23 11:20:15 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "AUTH LOGIN PLAIN",
+    "SIZE 53477376"
+  ],
+  "envelopeTime": 134,
+  "messageTime": 186,
+  "messageSize": 2289,
+  "response": "250 Message received",
+  "envelope": {
+    "from": "saharicky@zohomail.in",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<98696671-67a1-583e-e1f9-27bb429fd75e@zohomail.in>"
+}
+2025-09-23 11:20:17 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via mailgun| Envelope Time: 712ms | Message Time: 302ms
+2025-09-23 11:20:17 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via mailgun
+2025-09-23 11:20:17 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "AUTH PLAIN LOGIN",
+    "SIZE 52428800",
+    "8BITMIME",
+    "SMTPUTF8",
+    "PIPELINING"
+  ],
+  "envelopeTime": 712,
+  "messageTime": 302,
+  "messageSize": 2380,
+  "response": "250 Great success",
+  "envelope": {
+    "from": "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<02ee5244-97e8-62b2-934c-1ec4c5649392@sandboxbc0d753503814ce498c67839611dca09.mailgun.org>"
+}
+2025-09-23 11:20:17 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via mailersend| Envelope Time: 528ms | Message Time: 317ms
+2025-09-23 11:20:17 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via mailersend
+2025-09-23 11:20:17 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "8BITMIME",
+    "SMTPUTF8",
+    "AUTH LOGIN PLAIN"
+  ],
+  "envelopeTime": 528,
+  "messageTime": 317,
+  "messageSize": 2346,
+  "response": "250 Message queued as 68d23518849fb2f83d6a6f49",
+  "envelope": {
+    "from": "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<fc34067f-18a7-a82a-e145-199fd6c8378c@test-vz9dlem0p2n4kj50.mlsender.net>"
+}
+2025-09-23 11:20:17 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via smtp2go| Envelope Time: 766ms | Message Time: 260ms
+2025-09-23 11:20:17 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via smtp2go
+2025-09-23 11:20:17 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 52428800",
+    "LIMITS MAILMAX=5000 RCPTMAX=50000",
+    "8BITMIME",
+    "DSN",
+    "PIPELINING",
+    "PIPECONNECT",
+    "AUTH CRAM-MD5 PLAIN LOGIN",
+    "CHUNKING",
+    "PRDR",
+    "HELP"
+  ],
+  "envelopeTime": 766,
+  "messageTime": 260,
+  "messageSize": 2287,
+  "response": "250 OK id=1v0vuq-FnQW0hPm34Y-crTw",
+  "envelope": {
+    "from": "rickys@itio.in",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<1dd6caf0-8d96-915a-03d7-ff1104d93d52@itio.in>"
+}
+2025-09-23 11:20:17 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 764ms | Message Time: 625ms
+2025-09-23 11:20:17 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:20:17 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 764,
+  "messageTime": 625,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606616 41be03b00d2f7-b555adca754sm2295637a12.16 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<33ce00d0-f272-1f3e-84d1-bd313c06f08c@gmail.com>"
+}
+2025-09-23 11:20:17 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 756ms | Message Time: 826ms
+2025-09-23 11:20:17 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:20:17 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 756,
+  "messageTime": 826,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606617 98e67ed59e1d1-33060828031sm15093191a91.26 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<2730b6e4-61d0-e6c0-1080-d5e21d398545@gmail.com>"
+}
+2025-09-23 11:20:18 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 744ms | Message Time: 898ms
+2025-09-23 11:20:18 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:20:18 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 744,
+  "messageTime": 898,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606617 98e67ed59e1d1-3306082eff4sm14628076a91.25 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<d5a7a40d-e754-cbb1-a75b-50fdb82574b2@gmail.com>"
+}
+2025-09-23 11:20:18 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via elastic| Envelope Time: 838ms | Message Time: 283ms
+2025-09-23 11:20:18 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via elastic
+2025-09-23 11:20:18 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "PIPELINING",
+    "SIZE 20971520",
+    "8BITMIME",
+    "AUTH=PLAIN LOGIN CRAM-MD5",
+    "AUTH PLAIN LOGIN CRAM-MD5",
+    "OK"
+  ],
+  "envelopeTime": 838,
+  "messageTime": 283,
+  "messageSize": 2289,
+  "response": "250 OK 581ba051-9924-00f0-e051-51f163d8d594",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<d9d4201e-98fc-2b7f-7d4c-e317c5e6e65f@gmail.com>"
+}
+2025-09-23 11:20:18 [INFO]: [MONITORING] Email sent successfully to rickysahawork@gmail.com via yandex| Envelope Time: 1015ms | Message Time: 393ms
+2025-09-23 11:20:18 [INFO]: [sendEmail function] sendEmail completed successfully for rickysahawork@gmail.com via yandex
+2025-09-23 11:20:18 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickysahawork@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "8BITMIME",
+    "PIPELINING",
+    "SIZE 53477376",
+    "STARTTLS",
+    "AUTH LOGIN PLAIN XOAUTH2",
+    "DSN",
+    "ENHANCEDSTATUSCODES"
+  ],
+  "envelopeTime": 1015,
+  "messageTime": 393,
+  "messageSize": 2296,
+  "response": "250 2.0.0 Ok: queued on mail-nwsmtp-smtp-production-main-52.vla.yp-c.yandex.net 1758606617-EoPXws4MwSw0-J8Em9b4b",
+  "envelope": {
+    "from": "rickysaha@yandex.com",
+    "to": [
+      "rickysahawork@gmail.com"
+    ]
+  },
+  "messageId": "<3754d0b2-f1ed-fe45-b1d4-21c204470e58@yandex.com>"
+}
+2025-09-23 11:20:22 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0129.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:50:21.309Z 08DDF97333F08638]
+2025-09-23 11:20:22 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0129.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:50:21.309Z 08DDF97333F08638]
+2025-09-23 11:20:22 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0129.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:50:21.309Z 08DDF97333F08638]
+2025-09-23 11:20:22 [INFO]: [RetryHandler] Switching provider from outlook to gmail
+2025-09-23 11:20:22 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-23 11:20:25 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-23 11:20:25 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: , BCC: , Subject: Welcome,Ricky!
+
+2025-09-23 11:20:27 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 764ms | Message Time: 596ms
+2025-09-23 11:20:27 [INFO]: [sendEmail function] sendEmail completed successfully for rickys@itio.in via gmail
+2025-09-23 11:20:27 [INFO]: [sendEmail function] Email send response: {
+  "accepted": [
+    "rickys@itio.in"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 764,
+  "messageTime": 596,
+  "messageSize": 2289,
+  "response": "250 2.0.0 OK  1758606626 98e67ed59e1d1-3306067e00fsm15134261a91.12 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in"
+    ]
+  },
+  "messageId": "<9dc070f6-aaab-7192-d86e-7e6385f87ce4@gmail.com>"
+}
+2025-09-23 11:32:50 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:32:50 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:32:50 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:32:50 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:33:06 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:33:06 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:33:06 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:33:06 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:33:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:33:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:33:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:33:30 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:36:09 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:36:09 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:36:09 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:36:09 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:40:45 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:40:45 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:40:45 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:40:45 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-23 11:43:56 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:43:56 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:43:56 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:43:56 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:43:56 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:43:56 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:43:56 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:44:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:44:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:44:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:44:11 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:44:11 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:44:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:44:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:45:47 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:45:47 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:45:47 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:45:47 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:45:47 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:45:47 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:45:47 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:46:49 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:46:49 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:46:49 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:46:49 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:46:49 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:46:49 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:46:49 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:48:24 [INFO]: [RetryHandler] Retrying undefined after 3000ms...
+2025-09-23 11:48:27 [WARN]: [RetryHandler] Failed attempt via undefined: fail
+2025-09-23 11:48:27 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:48:27 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:48:27 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:48:27 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:48:27 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:48:27 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:48:27 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:48:43 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:48:43 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:48:43 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:48:43 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:48:43 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:48:43 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:48:43 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:49:04 [INFO]: [RetryHandler] Retrying undefined after 3000ms...
+2025-09-23 11:49:07 [WARN]: [RetryHandler] Failed attempt via undefined: fail
+2025-09-23 11:49:07 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:49:07 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:49:07 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:49:07 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:49:07 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:49:07 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:49:07 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:50:16 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:50:16 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:50:16 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:50:16 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:50:16 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:50:16 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:50:16 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:50:16 [INFO]: [RetryHandler] Retrying mock after 3000ms...
+2025-09-23 11:50:19 [WARN]: [RetryHandler] Failed attempt via mock: fail
+2025-09-23 11:51:08 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:51:08 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:51:08 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:51:08 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:51:08 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:51:08 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:51:08 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:51:08 [INFO]: [RetryHandler] Retrying mock after 3000ms...
+2025-09-23 11:51:11 [WARN]: [RetryHandler] Failed attempt via mock: fail
+2025-09-23 11:52:17 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:52:17 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:52:17 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:52:17 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:52:17 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:52:17 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:52:17 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:52:17 [INFO]: [RetryHandler] Retrying mock after 3000ms...
+2025-09-23 11:52:20 [WARN]: [RetryHandler] Failed attempt via mock: fail
+2025-09-23 11:55:40 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:55:40 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:55:40 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:55:40 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:55:40 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:55:40 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:55:40 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-23 11:55:40 [INFO]: [RetryHandler] Retrying mock after 3000ms...
+2025-09-23 11:56:47 [INFO]: [RetryHandler] Retrying mock after 3000ms...
+2025-09-23 11:56:47 [INFO]: [SendEmail function] Provider are loaded
+2025-09-23 11:56:47 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-23 11:56:47 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-23 11:56:47 [INFO]: [MONITORING] Sending email to test@example.com via mock...
+2025-09-23 11:56:47 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-23 11:56:47 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-23 11:56:47 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}

@@ -56,3 +56,37 @@
 535 5.7.8  https://support.google.com/mail/?p=BadCredentials d9443c01a7336-26980339e89sm124442175ad.130 - gsmtp
 2025-09-22 15:28:42 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": connect ETIMEDOUT 52.98.88.70:2525
 2025-09-22 15:29:22 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": connect ETIMEDOUT 52.98.88.70:2525
+2025-09-23 09:20:08 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4P287CA0083.INDP287.PROD.OUTLOOK.COM 2025-09-23T03:50:08.280Z 08DDF95550FE715C]
+2025-09-23 09:20:08 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 09:36:44 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0144.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:06:43.368Z 08DDF99EE663C21D]
+2025-09-23 09:36:44 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 09:37:32 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXP287CA0013.INDP287.PROD.OUTLOOK.COM 2025-09-23T04:07:31.750Z 08DDFA30B0D51B68]
+2025-09-23 09:37:32 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 09:38:12 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4P287CA0104.INDP287.PROD.OUTLOOK.COM 2025-09-23T04:08:12.186Z 08DDF98BB2CB3AEC]
+2025-09-23 09:38:12 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 09:44:29 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4P287CA0103.INDP287.PROD.OUTLOOK.COM 2025-09-23T04:14:29.061Z 08DDF937342CE538]
+2025-09-23 09:44:29 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 09:45:13 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0186.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:15:12.638Z 08DDFA281E9CDE17]
+2025-09-23 09:45:13 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 10:10:28 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0135.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:40:28.192Z 08DDFA4D8BE13B1A]
+2025-09-23 10:10:28 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 10:15:08 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0055.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:45:08.267Z 08DDFA0AE46BD74A]
+2025-09-23 10:15:08 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 10:16:04 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4P287CA0012.INDP287.PROD.OUTLOOK.COM 2025-09-23T04:46:03.910Z 08DDFA31FD612106]
+2025-09-23 10:16:04 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 10:20:16 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0159.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:50:15.316Z 08DDF99A9BD508A7]
+2025-09-23 10:20:16 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0159.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:50:15.316Z 08DDF99A9BD508A7]
+2025-09-23 10:20:16 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 10:28:00 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0167.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:57:59.674Z 08DDF9681726DBE9]
+2025-09-23 10:28:00 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN2PR01CA0167.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T04:57:59.674Z 08DDF9681726DBE9]
+2025-09-23 10:28:00 [ERROR]: [RetryHandler] Provider-level error (quota/auth). Switching provider immediately...
+2025-09-23 10:35:00 [ERROR]: [RetryHandler] Provider not found for source: gmai
+2025-09-23 10:35:00 [ERROR]: [sendEmail function] sendEmail failed for rickys@itio.in via gmai: Provider not found for source: gmai
+2025-09-23 10:41:56 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4P287CA0058.INDP287.PROD.OUTLOOK.COM 2025-09-23T05:12:02.378Z 08DDF8F865A20DCC]
+2025-09-23 10:41:56 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN4P287CA0058.INDP287.PROD.OUTLOOK.COM 2025-09-23T05:12:02.378Z 08DDF8F865A20DCC]
+2025-09-23 10:58:20 [ERROR]: [SmtpProvider] Connection verification failed for "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0055.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:28:20.005Z 08DDFA0AE46C0CAF]
+2025-09-23 10:58:20 [ERROR]: [ProviderManager] Failed to load providers from DB: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0055.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:28:20.005Z 08DDFA0AE46C0CAF]
+2025-09-23 10:58:20 [ERROR]: [sendEmail function] Failed to load providers: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0055.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:28:20.005Z 08DDFA0AE46C0CAF]
+2025-09-23 11:02:26 [ERROR]: [sendEmail function] Failed to load providers: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0055.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:28:20.005Z 08DDFA0AE46C0CAF]
+2025-09-23 11:02:53 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0122.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:32:52.842Z 08DDFA0EDCAF5576]
+2025-09-23 11:02:53 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [PN3PR01CA0122.INDPRD01.PROD.OUTLOOK.COM 2025-09-23T05:32:52.842Z 08DDFA0EDCAF5576]
