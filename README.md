@@ -123,6 +123,47 @@ POST /api/mail/send
 
 ---
 
+## Testing the Email Package
+
+The Email Package includes unit tests to validate its functionality.
+```
+cd Email-package
+npm install
+npm test
+```
+### 3. Test Coverage (Current)
+
+✅ ProviderManager
+
+Loads providers from DB
+
+Caching logic (avoids duplicate DB hits within TTL)
+
+Handles provider refresh
+
+Throws error if provider not found
+
+Prevents concurrent initialization
+
+✅ RetryHandler
+
+Retries sending until success
+
+Stops retrying on success
+
+Fails gracefully after max attempts
+
+✅ Mock Providers (Test Utilities)
+
+Fake SMTP provider for isolated testing
+
+No real email is sent, only simulates behavior
+
+✅ sendEmail Flow
+
+Template rendering is mocked and validated
+
+Sends successfully via mock provider
 ## Testing with Postman
 
 You can test the API using the provided Postman collection. Import the collection and set the base URL to `http://localhost:4000`.
