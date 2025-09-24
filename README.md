@@ -125,6 +125,30 @@ POST /api/mail/send
     - Yandex  
 
 ⚠️ **Note:** Some SMTP providers may have constraints on the "to" address due to free tier limitations. Adjust the `to` field accordingly.
+ ## Provider Constraints & Notes
+
+MailerSend (Trial Account)
+
+Trial accounts can only send emails to the administrator account:
+rickysahawork@gmail.com
+
+CC and BCC are not supported under the trial plan.
+
+Mailgun (Trial Account)
+
+Similar to MailerSend, trial accounts are limited to sending only to the administrator account:
+rickysahawork@gmail.com
+
+CC and BCC are not supported under the trial plan.
+
+Outlook
+
+Currently facing some authentication issues.
+
+Fix is in progress.
+
+Other Providers (Gmail, Zoho Mail, SMTP2Go, Elastic Email, Yandex)
+**These are working without issues.**
 
 ---
 
