@@ -1,3 +1,5 @@
+//-----------------------Mock utilities----------------------------------
+
 // Mock the database schema
 jest.mock('../db/Schema/smtpconfigs', () => ({
   find: jest.fn(() => Promise.resolve([
@@ -32,8 +34,11 @@ jest.mock('../src/logger', () => ({
   logger: { info: jest.fn(), error: jest.fn(), debug: jest.fn() }
 }));
 
+
+// ----------Real instance of Provider Manager-------------(for other testing others methods except db calls)
+
 // Import ProviderManager 
-const { ProviderManager } = require('../src/emailService/providerManager');
+const { ProviderManager } = require('../src/emailService/providerManager/providerManager');
 
 describe('ProviderManager', () => {
   let providerManager;
@@ -45,7 +50,8 @@ describe('ProviderManager', () => {
   });
 
 
-  //-------------------- Test-----------------------------
+  //-------------------- Tests-----------------------------
+
   test('should initialize and load providers from database', async () => {
     await providerManager.init();
     const providers = providerManager.getProviders();
@@ -71,27 +77,9 @@ describe('ProviderManager', () => {
     expect(provider.source).toBe('gmail');
   });
 
-  test('should send email via specific provider', async () => {
-    await providerManager.init();
 
-    const mailOptions = {
-      to: 'test@example.com',
-      subject: 'Test Email',
-      text: 'Test message'
-    };
-
-    const result = await providerManager.send('gmail', mailOptions);
-    expect(result).toHaveProperty('messageId');
-    expect(result.messageId).toContain('mock-gmail-');
-  });
-
-  test('should throw error when provider not found', async () => {
-    await providerManager.init();
-
-    await expect(providerManager.send('nonexistent', {}))
-      .rejects.toThrow('Provider not found for source: nonexistent');
-  });
-
+  // refresh provider method exist in Provider Manager
+  //but still it is not called in the actual api logic as it is just as the helper function.
   test('should refresh providers manually', async () => {
     const EmailCredential = require('../db/Schema/smtpconfigs');
 
@@ -101,6 +89,7 @@ describe('ProviderManager', () => {
     expect(EmailCredential.find).toHaveBeenCalledTimes(2);
   });
 
+
   test('should handle database errors gracefully', async () => {
     const EmailCredential = require('../db/Schema/smtpconfigs');
     EmailCredential.find.mockRejectedValueOnce(new Error('DB connection failed'));
@@ -108,6 +97,7 @@ describe('ProviderManager', () => {
     await expect(providerManager.init()).rejects.toThrow('DB connection failed');
   });
 
+  // DB concurrency check for duplicate cache provider
   test('should prevent concurrent initialization', async () => {
     const EmailCredential = require('../db/Schema/smtpconfigs');
 

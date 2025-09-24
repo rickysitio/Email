@@ -1,4 +1,3 @@
-
 const nodemailer = require("nodemailer");
 const {logger} =require("../../logger");
 class SmtpProvider {

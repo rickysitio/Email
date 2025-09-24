@@ -38,3 +38,47 @@
 2025-09-23 11:33:30 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
 2025-09-23 11:36:09 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
 2025-09-23 11:40:45 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: Cannot read properties of undefined (reading 'length')
+2025-09-24 12:55:35 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 12:56:10 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 12:58:32 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 12:58:33 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 12:58:33 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 12:59:21 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 12:59:21 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 12:59:21 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:01:44 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:01:44 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 13:01:44 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:07:38 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:07:38 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 13:07:38 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 13:07:38 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:07:38 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 13:12:47 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 13:12:47 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:12:47 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 13:13:04 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:13:04 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 13:14:21 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:14:21 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 13:15:57 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 13:15:57 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:15:57 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 13:30:51 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 13:30:51 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 13:30:51 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 15:25:25 [ERROR]: [sendEmail] Failed to send email to test@example.com via "mock": Provider init failed
+2025-09-24 15:25:25 [ERROR]: [sendEmail] Failed to send email to test@example.com via "mock": All providers failed
+2025-09-24 15:25:25 [ERROR]: [sendEmail] Failed to send email to test@example.com via "mock": Template not found
+2025-09-24 15:29:04 [ERROR]: [sendEmail] Failed to send email to test@example.com via "mock": Provider init failed
+2025-09-24 15:29:04 [ERROR]: [sendEmail] Failed to send email to test@example.com via "mock": All providers failed
+2025-09-24 15:29:04 [ERROR]: [sendEmail] Failed to send email to test@example.com via "mock": Template not found
+2025-09-24 16:20:49 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 16:20:49 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 16:20:49 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 16:25:56 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 16:25:56 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 16:25:56 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-24 16:49:59 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-24 16:49:59 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-24 16:49:59 [ERROR]: [sendEmail function] Template rendering failed: Template not found

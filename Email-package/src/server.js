@@ -2,7 +2,7 @@
 require("dotenv").config();
 
 const connectDB = require("../db/mongoConnection");
-const { sendEmail } = require("./emailService/sendEmail");
+const { sendEmail } = require("./emailService/sendEmail/sendEmail");
 const {logger} = require("./logger");
 
 // Export sendEmail for external usage
