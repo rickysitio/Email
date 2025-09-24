@@ -5,7 +5,7 @@ const { logger } = require("../../logger");
 const emailHooks = require("../../hooks/emailHooks");
 
 // Create instances that can be properly mocked in tests 
-// --> such that we need to initalize them while testing
+// --> such that we need not to initalize them while testing
 let providerManager;
 let retryHandler;
 

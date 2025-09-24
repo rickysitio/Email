@@ -30,6 +30,7 @@ class RetryHandler {
       source: currentProvider.source,
     });
 
+    // while loop till there are providers
     while (currentProvider) {
       triedProviders.add(currentProvider.source);
 
@@ -78,6 +79,7 @@ class RetryHandler {
       // Wait before trying the next provider
       await sleep(this.retryDelay);
 
+      // adding the nextprovider into current provider
       currentProvider = nextProvider;
       isFirstProvider = false;
     }

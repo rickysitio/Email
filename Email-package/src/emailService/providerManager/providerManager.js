@@ -16,7 +16,7 @@ class ProviderManager {
     this.initPromise = null; 
   }
 
-  //Initialize providers
+  //Initialize providers method
   async init() {
     const now = Date.now();
 
@@ -59,17 +59,17 @@ class ProviderManager {
     }
   }
 
-  // Get all loaded providers
+  // Get all loaded providers method
   getProviders() {
     return this.providers;
   }
 
-  // Get a single provider by source name
+  // Get a single provider method by source name 
   getProvider(source) {
     return this.providers.find((p) => p.source === source);
   }
 
-  // Manually refresh providers--> if with TTL credentials gets changed
+  // Manually refresh providers method --> if within TTL, credentials gets changed
   //then we can use this method in order to forcefully refresh the cache Providers
   //and update them without rerun of the server.(Helper function not using it anywhere currently)
   async refreshProviders() {
