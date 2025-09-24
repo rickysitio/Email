@@ -143,9 +143,8 @@ CC and BCC are not supported under the trial plan.
 
 Outlook
 
-Currently facing some authentication issues.
-
-Fix is in progress.
+Needed OAuth2.0 configuration (only valid with microsoft paid version).
+PS:You can check for the retry logic via outlook--> how outlook fails and how it automatically selects another provider for sending the mail.
 
 Other Providers (Gmail, Zoho Mail, SMTP2Go, Elastic Email, Yandex)
 **These are working without issues.**
