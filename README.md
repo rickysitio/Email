@@ -168,39 +168,6 @@ The Email Package includes unit tests to validate its functionality.
 cd Email-package
 npm test
 ```
-### 3. Test Coverage (Current)
-
-✅ ProviderManager
-
-Loads providers from DB
-
-Caching logic (avoids duplicate DB hits within TTL)
-
-Handles provider refresh
-
-Throws error if provider not found
-
-Prevents concurrent initialization
-
-✅ RetryHandler
-
-Retries sending until success
-
-Stops retrying on success
-
-Fails gracefully after max attempts
-
-✅ Mock Providers (Test Utilities)
-
-Fake SMTP provider for isolated testing
-
-No real email is sent, only simulates behavior
-
-✅ sendEmail Flow
-
-Template rendering is mocked and validated
-
-Sends successfully via mock provider
 
 ## ✅ Completed Features
 
@@ -213,7 +180,7 @@ Sends successfully via mock provider
 - **Provider Management (DB-driven)**  
   - Providers (Gmail, Zoho, ElasticMail, etc.) are fetched from MongoDB.  
   - Cached in memory to avoid redundant DB calls.  
-  - Refresh functionality to reload providers.  
+  - Refresh functionality to reload providers. // method created not in use currently
   - Prevents concurrent initialization.
 
 - **Retry & Error Handling**  
@@ -240,21 +207,12 @@ Sends successfully via mock provider
   - Provider switches  
   - Final success/failure
 
-- **Unit Testing (Jest)**  
-  - ProviderManager tested for caching, refresh, and error handling.  
-  - RetryHandler tested for success/failure retries.  
-  - Mock SMTP Providers added for isolated testing.  
-  - sendEmail flow tested with mocked template rendering.
-
 - **Security & Config Management**  
   - Credentials stored in DB and `.env`, not hardcoded.  
   - TLS/secure configs supported depending on provider.
 
-- **Scalability Ready**  
-  Designed to be easily migrated into a microservice in the future.
 
 ## Notes
-
 - The package fetches provider credentials from the database
 - Hooks are implemented for monitoring email sending, retries, provider switches, and final success/failure
 - Ensure MongoDB connection string is correctly set in your `.env` file before running the app
