@@ -152,6 +152,7 @@ Other Providers (Gmail, Zoho Mail, SMTP2Go, Elastic Email, Yandex)
 ---
 
 ## Testing the Email Package
+**NOTE** Testing file is not modular currently neither it covers all the cases it is in progress....
 
 The Email Package includes unit tests to validate its functionality.
 ```
