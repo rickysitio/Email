@@ -16,7 +16,7 @@ class ProviderManager {
     this.initPromise = null; 
   }
 
-  //Initialize providers method
+  //Initialize providers method with cache or db call
   async init() {
     const now = Date.now();
 
@@ -44,6 +44,7 @@ class ProviderManager {
       const creds = await EmailCredential.find();
 
       // Map each credential to a provider instance
+      // in order to get the send method of smtpProvider into the instance of provider
       this.providers = creds.map((cred) => new SmtpProvider(cred));
 
       // Update cache timestamp

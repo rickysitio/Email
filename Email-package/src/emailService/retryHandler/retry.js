@@ -7,7 +7,7 @@ class RetryHandler {
     this.retryDelay = options.retryDelay || 3000;
   }
 
-  // send Method with retry logic
+  // ----------send Method with retry logic------------------------
   async sendWithRetry(source, mailOptions, hooks = {}) {
     // Ensure there are providers loaded
     const providers = this.providerManager.getProviders();
@@ -93,8 +93,8 @@ class RetryHandler {
     throw new Error("All providers failed to send the email");
   }
 
-  //----------------- Helper functions-----------------
-
+  //-------------------- Helper functions-------------------------------
+  
   // Handle a single provider attempt, including retry for first provider
   async _attemptSend(provider, mailOptions, hooks, isFirstProvider) {
     try {

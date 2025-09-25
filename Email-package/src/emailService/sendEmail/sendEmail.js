@@ -1,5 +1,5 @@
 const { ProviderManager } = require("../providerManager/providerManager");
-const templater = require("../templater");
+const {renderTemplate} = require("./templater");
 const { RetryHandler } = require("../retryHandler/retry");
 const { logger } = require("../../logger");
 const emailHooks = require("../../hooks/emailHooks");
@@ -9,7 +9,7 @@ const emailHooks = require("../../hooks/emailHooks");
 let providerManager;
 let retryHandler;
 
-//---------- helper function-------
+//---------- helper method-------
 // Initialize instances of provider Manager and passing it to the retryHandler instance
 function initializeInstances() {
   if (!providerManager) {
@@ -60,7 +60,8 @@ async function sendEmail({
   // Render email template
   let renderedTemplate;
   try {
-    renderedTemplate = templater.renderTemplate(template, templateData || {});
+    renderedTemplate = renderTemplate(template, templateData || {});
+    //logger.info(`[sendEmail function] Template rendering successfull ${renderedTemplate}`)
   } catch (err) {
     logger.error(
       `[sendEmail function] Template rendering failed: ${err.message}`

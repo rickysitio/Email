@@ -5,11 +5,12 @@ const Handlebars = require("handlebars");
 
 function renderTemplate(templateName, data = {}) {
 
-  const templatesDir = path.join(__dirname, "templates");
-    console.log("templatedir-->",templatesDir);
+ const templatesDir = path.join(__dirname, "..", "templates");
+  console.log("templatesDir -->", templatesDir);
+
 
   // subject template load
-  const subjectPath = path.join(templatesDir, `subject.hbs`);
+  const subjectPath = path.join(templatesDir,`subject.hbs`);
   console.log(subjectPath)
 
   const subjectTemplate = fs.existsSync(subjectPath)

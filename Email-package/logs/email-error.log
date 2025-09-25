@@ -82,3 +82,6 @@
 2025-09-24 16:49:59 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
 2025-09-24 16:49:59 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
 2025-09-24 16:49:59 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 09:51:06 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 09:51:06 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 09:51:06 [ERROR]: [sendEmail function] Template rendering failed: Template not found

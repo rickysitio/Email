@@ -16,7 +16,7 @@ jest.mock('../src/emailService/providerManager/providerManager', () => {
 });
 
 // Mock the template renderer
-jest.mock('../src/emailService/templater', () => ({
+jest.mock('../src/emailService/sendEmail/templater', () => ({
   renderTemplate: jest.fn(() => ({ subject: 'Hi', html: '<p>Hello</p>', text: 'Hello' }))
 }));
 
@@ -41,7 +41,7 @@ jest.mock('../src/hooks/emailHooks', () => ({
 
 // Now import sendEmail AFTER mocks
 const { sendEmail } = require('../src/emailService/sendEmail/sendEmail');
-const templater = require('../src/emailService/templater');
+const templater = require('../src/emailService/sendEmail/templater');
 const emailHooks = require('../src/hooks/emailHooks');
 
 describe('sendEmail', () => {
