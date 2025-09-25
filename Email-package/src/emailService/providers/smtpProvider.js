@@ -1,5 +1,5 @@
 const nodemailer = require("nodemailer");
-const {logger} =require("../../logger");
+const {logger} =require("../utils/logger");
 class SmtpProvider {
   constructor(cred) {
     this.source = cred.source; 

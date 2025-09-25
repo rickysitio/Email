@@ -2326,3 +2326,16 @@
 2025-09-24 12:24:43 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
 2025-09-24 12:26:38 [INFO]: [MONITORING] Sending email to test@example.com via mock...
 2025-09-24 12:26:38 [INFO]: [MONITORING] Email sent successfully to test@example.com via mock| Envelope Time: undefinedms | Message Time: undefinedms
+2025-09-25 12:51:33 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 12:51:41 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0023.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:21:40.390Z 08DDFB90B7326582]
+2025-09-25 12:51:41 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 12:51:59 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 926ms | Message Time: 11937ms
+
+2025-09-25 12:53:22 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 12:53:30 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0085.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:23:29.642Z 08DDFB99E51A2AD4]
+2025-09-25 12:53:30 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 12:53:48 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 937ms | Message Time: 12599ms
+2025-09-25 12:54:50 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 12:54:57 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:24:56.798Z 08DDFB9A44D49F45]
+2025-09-25 12:54:57 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 12:55:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 926ms | Message Time: 12039ms

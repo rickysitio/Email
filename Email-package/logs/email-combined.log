@@ -6528,3 +6528,1367 @@
 2025-09-25 09:51:06 [INFO]: [sendEmail function] Email send response: {
   "messageId": "abc"
 }
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:15:32 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:15:32 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:15:32 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:15:32 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:15:32 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:15:32 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:15:32 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:15:32 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:15:32 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:15:32 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:15:32 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:15:32 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:15:32 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:23:21 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:23:22 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:23:22 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:23:22 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:23:22 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:23:22 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:23:22 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:23:22 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:23:22 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:23:21 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:21 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:21 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:23:22 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:23:22 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:23:22 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:23:22 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:24:53 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:24:53 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:24:53 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:24:53 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:24:53 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:24:53 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:24:53 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:24:53 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:24:54 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:53 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:24:53 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:24:53 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:24:54 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:24:54 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:25:33 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:25:33 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:25:33 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:25:33 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:25:33 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:25:33 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:25:33 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:25:33 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:25:33 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:25:33 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:25:33 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:25:33 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:25:33 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:26:30 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:26:30 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:26:30 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:26:30 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:26:30 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:26:30 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:26:30 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:26:30 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:26:30 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:26:30 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:26:30 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:26:30 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:26:30 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:26:30 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:27:11 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:27:11 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:27:11 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:27:11 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:27:11 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:27:11 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:27:11 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:27:11 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:27:11 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:27:11 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:27:11 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:27:11 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:43:28 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:43:28 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:43:28 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:43:28 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:43:28 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:43:28 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:43:28 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:43:29 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:43:29 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:43:29 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:43:29 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:43:29 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:43:29 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:43:29 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:44:03 [INFO]: [RetryHandler] Retrying provider1 after 10ms...
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "simple"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for integration@example.com using template "integration"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for integration@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for integration@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via gmail
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [INFO]: [SendEmail function] Provider are loaded
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 10:44:03 [INFO]: [sendEmail function] sendEmail completed successfully for test1@example.com,test2@example.com via mock
+2025-09-25 10:44:03 [INFO]: [sendEmail function] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 10:44:03 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error again
+2025-09-25 10:44:03 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:44:03 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 10:44:03 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:44:03 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 10:44:03 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 10:44:03 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 10:44:03 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 10:44:03 [INFO]: [RetryHandler] Switching provider from provider1 to provider2
+2025-09-25 12:51:29 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-25 12:51:33 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-25 12:51:33 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 12:51:33 [INFO]: [sendEmail] Template rendered for rickys@itio.in using template "welcome"
+2025-09-25 12:51:33 [INFO]: [sendEmail] Mail options prepared for rickys@itio.in
+2025-09-25 12:51:33 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 12:51:33 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 12:51:41 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0023.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:21:40.390Z 08DDFB90B7326582]
+2025-09-25 12:51:41 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0023.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:21:40.390Z 08DDFB90B7326582]
+2025-09-25 12:51:41 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0023.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:21:40.390Z 08DDFB90B7326582]
+2025-09-25 12:51:41 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 12:51:44 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 12:51:44 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 12:51:59 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 926ms | Message Time: 11937ms
+2025-09-25 12:51:59 [INFO]: [sendEmail] Email sent successfully for rickys@itio.in via gmail
+2025-09-25 12:51:59 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "rickys@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 926,
+  "messageTime": 11937,
+  "messageSize": 2365117,
+  "response": "250 2.0.0 OK  1758784918 d9443c01a7336-27ed69ba58csm14675255ad.121 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<bc7df015-f0b9-a972-8b5f-4fa44ea37ea2@gmail.com>"
+}
+
+2025-09-25 12:52:47 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-25 12:53:22 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-25 12:53:22 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 12:53:22 [INFO]: [sendEmail] Template rendered for rickys@itio.in using template "welcome"
+2025-09-25 12:53:22 [INFO]: [sendEmail] Mail options prepared for rickys@itio.in
+2025-09-25 12:53:22 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 12:53:22 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 12:53:30 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0085.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:23:29.642Z 08DDFB99E51A2AD4]
+2025-09-25 12:53:30 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0085.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:23:29.642Z 08DDFB99E51A2AD4]
+2025-09-25 12:53:30 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0085.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:23:29.642Z 08DDFB99E51A2AD4]
+2025-09-25 12:53:30 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 12:53:33 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 12:53:33 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 12:53:48 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 937ms | Message Time: 12599ms
+2025-09-25 12:53:48 [INFO]: [sendEmail] Email sent successfully for rickys@itio.in via gmail
+2025-09-25 12:53:48 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "rickys@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 937,
+  "messageTime": 12599,
+  "messageSize": 2365117,
+  "response": "250 2.0.0 OK  1758785027 98e67ed59e1d1-3342a4201ecsm701408a91.3 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<9cc53a50-1363-f1c5-efb0-ee78f9cf442e@gmail.com>"
+}
+2025-09-25 12:54:27 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-25 12:54:50 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-25 12:54:50 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 12:54:50 [INFO]: [sendEmail] Template rendered for rickys@itio.in using template "welcome"
+2025-09-25 12:54:50 [INFO]: [sendEmail] Mail options prepared for rickys@itio.in
+2025-09-25 12:54:50 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 12:54:50 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 12:54:57 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:24:56.798Z 08DDFB9A44D49F45]
+2025-09-25 12:54:57 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:24:56.798Z 08DDFB9A44D49F45]
+2025-09-25 12:54:57 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:24:56.798Z 08DDFB9A44D49F45]
+2025-09-25 12:54:57 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 12:55:00 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 12:55:00 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 12:55:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 926ms | Message Time: 12039ms
+2025-09-25 12:55:15 [INFO]: [sendEmail] Email sent successfully for rickys@itio.in via gmail
+2025-09-25 12:55:15 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "rickys@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 926,
+  "messageTime": 12039,
+  "messageSize": 2365117,
+  "response": "250 2.0.0 OK  1758785114 d9443c01a7336-27ed6ab6547sm15069905ad.129 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<c2cdab46-4dec-f529-5aa8-175d8145808c@gmail.com>"
+}
+2025-09-25 12:57:21 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 12:57:21 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 12:57:21 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 12:57:21 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 12:57:21 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 12:57:21 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 12:57:21 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 12:57:21 [ERROR]: [No providers available in the memory]
+2025-09-25 12:57:21 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 13:00:30 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:00:30 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:00:30 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 13:00:30 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 13:00:30 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 13:00:30 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:00:30 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:00:30 [ERROR]: [No providers available in the memory]
+2025-09-25 13:00:30 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 13:02:12 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:02:13 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:02:13 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 13:02:13 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 13:02:13 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 13:02:13 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:02:13 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:02:13 [ERROR]: [No providers available in the memory]
+2025-09-25 13:02:13 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "simple"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for test@example.com via mock: Provider init failed
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for test@example.com via mock: All providers failed
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for test@example.com via mock: Template not found
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via gmail
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:02:13 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:02:13 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 13:02:13 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 13:02:13 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "simple"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for test@example.com via mock: Provider init failed
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for test@example.com via mock: All providers failed
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for test@example.com via mock: Template not found
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via gmail
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "test-123",
+  "envelopeTime": 100,
+  "messageTime": 200
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:40 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:03:40 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 13:03:40 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 13:03:40 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:03:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:03:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:03:41 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 13:03:41 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 13:03:41 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 13:03:41 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:03:41 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:03:41 [ERROR]: [No providers available in the memory]
+2025-09-25 13:03:41 [WARN]: [RetryHandler] Failed attempt via provider1: Authentication failed
+2025-09-25 13:06:47 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:06:47 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:06:47 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 13:06:47 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 13:06:47 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 13:06:47 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:06:47 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:06:47 [ERROR]: [No providers available in the memory]
+2025-09-25 13:06:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:06:47 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:06:47 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:06:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:06:47 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:06:47 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:06:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:06:47 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:06:47 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:06:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:06:47 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:06:47 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:06:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:06:47 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 13:06:47 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:06:47 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:06:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:06:47 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:06:47 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:06:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:06:47 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 13:06:47 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 13:06:47 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:07:35 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:07:35 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:07:35 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 13:07:35 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 13:07:35 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 13:07:35 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:07:35 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:07:35 [ERROR]: [No providers available in the memory]
+2025-09-25 13:07:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:07:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:07:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:07:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:07:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:07:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:07:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:07:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:07:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:07:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:07:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:07:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:07:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:07:35 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 13:07:35 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:07:35 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:07:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:07:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 13:07:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 13:07:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:07:35 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 13:07:35 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}

@@ -85,3 +85,69 @@
 2025-09-25 09:51:06 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
 2025-09-25 09:51:06 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
 2025-09-25 09:51:06 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:12:38 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:14:36 [ERROR]: [sendEmail function] Failed to load providers: providerManager.init is not a function
+2025-09-25 10:15:32 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:15:32 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:15:32 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:23:22 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:23:22 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:23:22 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:24:53 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:24:53 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:24:53 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:25:33 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:25:33 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:25:33 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:26:30 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:26:30 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:26:30 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:27:11 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:27:11 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:27:11 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:43:29 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:43:29 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:43:29 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 10:44:03 [ERROR]: [sendEmail function] Failed to load providers: Provider init failed
+2025-09-25 10:44:03 [ERROR]: [sendEmail function] sendEmail failed for test@example.com via mock: All providers failed
+2025-09-25 10:44:03 [ERROR]: [sendEmail function] Template rendering failed: Template not found
+2025-09-25 12:51:41 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0023.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:21:40.390Z 08DDFB90B7326582]
+2025-09-25 12:51:41 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0023.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:21:40.390Z 08DDFB90B7326582]
+2025-09-25 12:53:30 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0085.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:23:29.642Z 08DDFB99E51A2AD4]
+2025-09-25 12:53:30 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0085.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:23:29.642Z 08DDFB99E51A2AD4]
+2025-09-25 12:54:57 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:24:56.798Z 08DDFB9A44D49F45]
+2025-09-25 12:54:57 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:24:56.798Z 08DDFB9A44D49F45]
+2025-09-25 12:57:21 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 12:57:21 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 12:57:21 [ERROR]: [No providers available in the memory]
+2025-09-25 13:00:30 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:00:30 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:00:30 [ERROR]: [No providers available in the memory]
+2025-09-25 13:02:13 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:02:13 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:02:13 [ERROR]: [No providers available in the memory]
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for test@example.com via mock: Provider init failed
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for test@example.com via mock: All providers failed
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for test@example.com via mock: Template not found
+2025-09-25 13:02:13 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for test@example.com via mock: Provider init failed
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for test@example.com via mock: All providers failed
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for test@example.com via mock: Template not found
+2025-09-25 13:03:40 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:03:41 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:03:41 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:03:41 [ERROR]: [No providers available in the memory]
+2025-09-25 13:06:47 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:06:47 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:06:47 [ERROR]: [No providers available in the memory]
+2025-09-25 13:06:47 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:07:35 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:07:35 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:07:35 [ERROR]: [No providers available in the memory]
+2025-09-25 13:07:35 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required

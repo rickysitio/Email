@@ -30,12 +30,13 @@ jest.mock('../src/emailService/providers/smtpProvider', () => ({
 }));
 
 // Mock the logger
-jest.mock('../src/logger', () => ({
+jest.mock('../src/emailService/utils/logger', () => ({
   logger: { info: jest.fn(), error: jest.fn(), debug: jest.fn() }
 }));
 
 
-// ----------Real instance of Provider Manager-------------(for other testing others methods except db calls)
+// ----------Real instance of Provider Manager------
+// (for other testing others methods except db calls)
 
 // Import ProviderManager 
 const { ProviderManager } = require('../src/emailService/providerManager/providerManager');
@@ -79,7 +80,8 @@ describe('ProviderManager', () => {
 
 
   // refresh provider method exist in Provider Manager
-  //but still it is not called in the actual api logic as it is just as the helper function.
+  //but still it is not called in the actual api logic as it is just as the helper method.
+  // can be use in future
   test('should refresh providers manually', async () => {
     const EmailCredential = require('../db/Schema/smtpconfigs');
 

@@ -1,19 +1,19 @@
 const EmailCredential = require("../../../db/Schema/smtpconfigs");
 const { SmtpProvider } = require("../providers/smtpProvider");
-const { logger } = require("../../logger");
+const { logger } = require("../utils/logger");
 
 class ProviderManager {
   constructor(options = {}) {
     if (ProviderManager.instance) return ProviderManager.instance;
 
     // Array of SmtpProvider instances
-    this.providers = []; 
+    this.providers = [];
     // 5 minutes default TTL
-    this.cacheTTL = options.cacheTTL || 5 * 60 * 1000; 
+    this.cacheTTL = options.cacheTTL || 5 * 60 * 1000;
     // Timestamp of last provider load
-    this.lastLoaded = 0; 
+    this.lastLoaded = 0;
     // To prevent duplicate init calls in concurrency
-    this.initPromise = null; 
+    this.initPromise = null;
   }
 
   //Initialize providers method with cache or db call
@@ -65,7 +65,7 @@ class ProviderManager {
     return this.providers;
   }
 
-  // Get a single provider method by source name 
+  // Get a single provider method by source name
   getProvider(source) {
     return this.providers.find((p) => p.source === source);
   }
