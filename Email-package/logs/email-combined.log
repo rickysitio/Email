@@ -9936,3 +9936,111 @@
   },
   "messageId": "<1a37c01b-6173-8de8-097d-d26aba46e74f@gmail.com>"
 }
+2025-09-25 16:05:19 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-25 16:05:27 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-25 16:05:27 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 16:05:27 [INFO]: [sendEmail] Template rendered for pawneshk@itio.in using template "welcome"
+2025-09-25 16:05:27 [INFO]: [sendEmail] Mail options prepared for pawneshk@itio.in
+2025-09-25 16:05:27 [INFO]: [MONITORING] Sending email to pawneshk@itio.in via outlook...
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 16:05:27 [INFO]: [SmtpProvider] To: pawneshk@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 16:05:36 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0080.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:35:35.018Z 08DDFBE4DCFC8B39]
+2025-09-25 16:05:36 [ERROR]: [MONITORING] Error sending email to pawneshk@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0080.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:35:35.018Z 08DDFBE4DCFC8B39]
+2025-09-25 16:05:36 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0080.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:35:35.018Z 08DDFBE4DCFC8B39]
+2025-09-25 16:05:36 [WARN]: [MONITORING] Switching provider from outlook to gmail for pawneshk@itio.in
+2025-09-25 16:05:39 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 16:05:39 [INFO]: [SmtpProvider] To: pawneshk@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 16:05:54 [INFO]: [MONITORING] Email sent successfully to pawneshk@itio.in via gmail| Envelope Time: 829ms | Message Time: 12503ms
+2025-09-25 16:05:54 [INFO]: [sendEmail] Email sent successfully for pawneshk@itio.in via gmail
+2025-09-25 16:05:54 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "pawneshk@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 829,
+  "messageTime": 12503,
+  "messageSize": 2365119,
+  "response": "250 2.0.0 OK  1758796553 d9443c01a7336-27ed6881e5esm20671205ad.75 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "pawneshk@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<53f2ab6a-0b50-0bb4-00f7-c123f09bd9fe@gmail.com>"
+}
+2025-09-25 16:06:30 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 16:06:30 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 16:06:30 [INFO]: [sendEmail] Template rendered for rickys@itio.in using template "welcome"
+2025-09-25 16:06:30 [INFO]: [sendEmail] Mail options prepared for rickys@itio.in
+2025-09-25 16:06:30 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 16:06:30 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 16:06:30 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 16:06:38 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0077.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:36:37.553Z 08DDFBE54A0FBE8C]
+2025-09-25 16:06:38 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0077.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:36:37.553Z 08DDFBE54A0FBE8C]
+2025-09-25 16:06:38 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0077.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:36:37.553Z 08DDFBE54A0FBE8C]
+2025-09-25 16:06:38 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 16:06:41 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 16:06:41 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 16:06:55 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 1027ms | Message Time: 11835ms
+2025-09-25 16:06:55 [INFO]: [sendEmail] Email sent successfully for rickys@itio.in via gmail
+2025-09-25 16:06:55 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "rickys@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 1027,
+  "messageTime": 11835,
+  "messageSize": 2365117,
+  "response": "250 2.0.0 OK  1758796614 d9443c01a7336-27edcbd455asm12468615ad.122 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<ba5f997e-6094-d55a-6ec5-f4b7312034c0@gmail.com>"
+}

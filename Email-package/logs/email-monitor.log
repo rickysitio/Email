@@ -2377,3 +2377,11 @@
 2025-09-25 15:39:36 [ERROR]: [MONITORING] Error sending email to pawneshk@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0019.INDP287.PROD.OUTLOOK.COM 2025-09-25T10:09:37.001Z 08DDFBBE94F2B40A]
 2025-09-25 15:39:36 [WARN]: [MONITORING] Switching provider from outlook to gmail for pawneshk@itio.in
 2025-09-25 15:40:21 [INFO]: [MONITORING] Email sent successfully to pawneshk@itio.in via gmail| Envelope Time: 1897ms | Message Time: 36620ms
+2025-09-25 16:05:27 [INFO]: [MONITORING] Sending email to pawneshk@itio.in via outlook...
+2025-09-25 16:05:36 [ERROR]: [MONITORING] Error sending email to pawneshk@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0080.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:35:35.018Z 08DDFBE4DCFC8B39]
+2025-09-25 16:05:36 [WARN]: [MONITORING] Switching provider from outlook to gmail for pawneshk@itio.in
+2025-09-25 16:05:54 [INFO]: [MONITORING] Email sent successfully to pawneshk@itio.in via gmail| Envelope Time: 829ms | Message Time: 12503ms
+2025-09-25 16:06:30 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 16:06:38 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BMXPR01CA0077.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T10:36:37.553Z 08DDFBE54A0FBE8C]
+2025-09-25 16:06:38 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 16:06:55 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 1027ms | Message Time: 11835ms

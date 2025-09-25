@@ -18,6 +18,16 @@ EMAIL/
 │  ├─ logs/                      # Application logs
 │  ├─ node_modules/
 │  └─ src/                       # Source code
+│     ├─ server.js               # Main server file
+│     ├─ emailService/           # Email service module
+│     │  ├─ hooks/
+│     │  ├─ providerManager/
+│     │  ├─ providers/
+│     │  ├─ retryHandler/
+│     │  ├─ sendEmail/
+│     │  ├─ templates/
+│     │  └─ utils/
+│     └─ test/                   # Test files
 └─ TestApp/                      # Test application
    ├─ .env                       # Test app environment
    ├─ .gitignore
@@ -25,7 +35,6 @@ EMAIL/
    ├─ package-lock.json
    ├─ package.json
    ├─ controllers/               # Route controllers
-   ├─ logs/                      # Test app logs
    ├─ node_modules/
    └─ Routes/                    # API routes
 ```
