@@ -151,3 +151,197 @@
 2025-09-25 13:07:35 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
 2025-09-25 13:07:35 [ERROR]: [No providers available in the memory]
 2025-09-25 13:07:35 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 13:22:10 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0165.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:52:09.563Z 08DDFB87D80F8D4A]
+2025-09-25 13:22:10 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0165.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:52:09.563Z 08DDFB87D80F8D4A]
+2025-09-25 13:41:20 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 13:41:20 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:41:20 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:41:20 [ERROR]: [No providers available in the memory]
+2025-09-25 13:45:12 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:15:18 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:16:27 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:16:27 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:16:28 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:16:28 [ERROR]: [No providers available in the memory]
+2025-09-25 14:17:55 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:17:55 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:17:55 [ERROR]: [No providers available in the memory]
+2025-09-25 14:17:55 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:19:29 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:19:29 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:19:29 [ERROR]: [No providers available in the memory]
+2025-09-25 14:19:29 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:20:49 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:20:49 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:20:49 [ERROR]: [No providers available in the memory]
+2025-09-25 14:20:49 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:23:55 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:23:55 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:23:55 [ERROR]: [No providers available in the memory]
+2025-09-25 14:23:55 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:25:47 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:25:47 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:25:47 [ERROR]: [No providers available in the memory]
+2025-09-25 14:25:47 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for integration@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test1@example.com,test2@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:31:54 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:31:54 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:31:54 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:31:54 [ERROR]: [No providers available in the memory]
+2025-09-25 14:33:32 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:33:32 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:33:32 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:33:32 [ERROR]: [No providers available in the memory]
+2025-09-25 14:35:10 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:35:10 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:35:10 [ERROR]: [No providers available in the memory]
+2025-09-25 14:35:10 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:38:17 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:38:17 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:38:17 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:38:17 [ERROR]: [No providers available in the memory]
+2025-09-25 14:38:18 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:42:41 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:42:41 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:42:41 [ERROR]: [No providers available in the memory]
+2025-09-25 14:42:41 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:42:41 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:44:25 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:44:25 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:44:25 [ERROR]: [No providers available in the memory]
+2025-09-25 14:44:26 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:45:06 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:45:06 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:45:06 [ERROR]: [No providers available in the memory]
+2025-09-25 14:45:06 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:45:07 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:45:07 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:46:17 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:46:18 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:46:17 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:46:18 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:46:18 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:46:18 [ERROR]: [No providers available in the memory]
+2025-09-25 14:48:22 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:48:22 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:48:22 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:48:22 [ERROR]: [No providers available in the memory]
+2025-09-25 14:50:20 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:50:21 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:50:21 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:50:21 [ERROR]: [No providers available in the memory]
+2025-09-25 14:51:20 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:51:20 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:51:20 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:51:20 [ERROR]: [No providers available in the memory]
+2025-09-25 14:51:21 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:52:35 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:52:36 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:52:36 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:52:36 [ERROR]: [No providers available in the memory]
+2025-09-25 14:55:16 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:55:15 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:55:16 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:55:16 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:55:16 [ERROR]: [No providers available in the memory]
+2025-09-25 14:56:45 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:56:45 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:56:45 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:56:45 [ERROR]: [No providers available in the memory]
+2025-09-25 14:57:04 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:57:05 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:57:05 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:57:05 [ERROR]: [No providers available in the memory]
+2025-09-25 14:58:10 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:58:10 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:58:10 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:58:10 [ERROR]: [No providers available in the memory]
+2025-09-25 14:58:10 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:01:02 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:01:03 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:01:03 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:01:03 [ERROR]: [No providers available in the memory]
+2025-09-25 15:04:56 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:04:57 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:04:56 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:04:57 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:04:57 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:04:57 [ERROR]: [No providers available in the memory]
+2025-09-25 15:07:46 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:07:46 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:07:46 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:07:46 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:07:46 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:07:46 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:07:46 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:07:46 [ERROR]: [No providers available in the memory]
+2025-09-25 15:09:38 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:09:38 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:09:38 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:09:38 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:09:38 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:09:38 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:09:38 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:09:38 [ERROR]: [No providers available in the memory]
+2025-09-25 15:12:09 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:12:09 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:12:09 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:12:09 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:12:09 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:12:09 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:12:09 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:12:09 [ERROR]: [No providers available in the memory]
+2025-09-25 15:12:41 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:12:41 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:12:41 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:12:41 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:12:41 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:12:41 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:12:41 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:12:41 [ERROR]: [No providers available in the memory]
+2025-09-25 15:14:09 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:14:10 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:14:09 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:14:09 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:14:09 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:14:10 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:14:10 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:14:10 [ERROR]: [No providers available in the memory]
+2025-09-25 15:14:49 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:14:49 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:14:49 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:14:49 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:14:49 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:14:49 [ERROR]: [No providers available in the memory]
+2025-09-25 15:19:43 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0007.INDP287.PROD.OUTLOOK.COM 2025-09-25T09:49:42.153Z 08DDFB8FF41F1C56]
+2025-09-25 15:19:43 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0007.INDP287.PROD.OUTLOOK.COM 2025-09-25T09:49:42.153Z 08DDFB8FF41F1C56]
+2025-09-25 15:39:36 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0019.INDP287.PROD.OUTLOOK.COM 2025-09-25T10:09:37.001Z 08DDFBBE94F2B40A]
+2025-09-25 15:39:36 [ERROR]: [MONITORING] Error sending email to pawneshk@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0019.INDP287.PROD.OUTLOOK.COM 2025-09-25T10:09:37.001Z 08DDFBBE94F2B40A]

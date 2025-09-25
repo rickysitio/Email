@@ -7892,3 +7892,2047 @@
 2025-09-25 13:07:35 [INFO]: [sendEmail] Email send response: {
   "messageId": "abc"
 }
+2025-09-25 13:21:56 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-25 13:22:03 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-25 13:22:03 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 13:22:03 [INFO]: [sendEmail] Template rendered for rickys@itio.in using template "welcome"
+2025-09-25 13:22:03 [INFO]: [sendEmail] Mail options prepared for rickys@itio.in
+2025-09-25 13:22:03 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 13:22:03 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 13:22:10 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0165.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:52:09.563Z 08DDFB87D80F8D4A]
+2025-09-25 13:22:10 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0165.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:52:09.563Z 08DDFB87D80F8D4A]
+2025-09-25 13:22:10 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0165.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:52:09.563Z 08DDFB87D80F8D4A]
+2025-09-25 13:22:10 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 13:22:13 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 13:22:13 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 13:22:28 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 847ms | Message Time: 12302ms
+2025-09-25 13:22:28 [INFO]: [sendEmail] Email sent successfully for rickys@itio.in via gmail
+2025-09-25 13:22:28 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "rickys@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 847,
+  "messageTime": 12302,
+  "messageSize": 2365117,
+  "response": "250 2.0.0 OK  1758786747 d9443c01a7336-27ed6882140sm15219825ad.70 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<02e42e11-43b0-09b6-fe81-bda92d1cd411@gmail.com>"
+}
+2025-09-25 13:41:20 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:41:20 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 13:41:20 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:41:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:41:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:41:20 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 13:41:20 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 13:41:20 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 13:41:20 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 13:41:20 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 13:41:20 [ERROR]: [No providers available in the memory]
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 13:45:12 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 13:45:12 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 13:45:12 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:15:18 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:15:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:15:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:16:27 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:16:27 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:16:27 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:16:27 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:16:27 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:16:27 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:16:27 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:16:27 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:16:27 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:16:28 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:16:28 [ERROR]: [No providers available in the memory]
+2025-09-25 14:17:55 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:17:55 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:17:55 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:17:55 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:17:55 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:17:55 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:17:55 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:17:55 [ERROR]: [No providers available in the memory]
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:17:55 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:17:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:17:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:19:28 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:19:29 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:19:29 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:19:29 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:19:29 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:19:29 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:19:29 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:19:29 [ERROR]: [No providers available in the memory]
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:19:29 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:19:29 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:19:29 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:20:49 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:20:49 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:20:49 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:20:49 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:20:49 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:20:49 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:20:49 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:20:49 [ERROR]: [No providers available in the memory]
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:20:49 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:20:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:20:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:23:54 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:23:54 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:23:54 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:23:54 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:23:55 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:23:55 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:23:55 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:23:55 [ERROR]: [No providers available in the memory]
+2025-09-25 14:23:54 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:23:55 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:23:55 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:23:55 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:25:47 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:25:47 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:25:47 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:25:47 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:25:47 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:25:47 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:25:47 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:25:47 [ERROR]: [No providers available in the memory]
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:25:47 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:25:47 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:25:47 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:25:47 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for integration@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:25:48 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:25:48 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:25:48 [ERROR]: [sendEmail] Failed for test1@example.com,test2@example.com via mock: Cannot destructure property 'subject' of '((cov_1cmktvptrm(...).s[20]++) , renderedTemplate)' as it is undefined.
+2025-09-25 14:31:54 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:31:54 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:31:54 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:31:54 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:31:54 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:31:54 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:31:54 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:31:54 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:31:54 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:31:54 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:31:54 [ERROR]: [No providers available in the memory]
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:33:32 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:33:32 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:33:32 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:33:32 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:33:32 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:33:32 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:33:32 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:33:32 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:33:32 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:33:32 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:33:32 [ERROR]: [No providers available in the memory]
+2025-09-25 14:33:32 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:35:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:35:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:35:10 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:35:10 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:35:10 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:35:10 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:35:10 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:35:10 [ERROR]: [No providers available in the memory]
+2025-09-25 14:35:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:35:10 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:35:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:35:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:38:17 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:38:17 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "undefined" and host "smtp.gmail.com"
+2025-09-25 14:38:17 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "undefined" and host "smtp.elasticemail.com"
+2025-09-25 14:38:17 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:38:17 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:38:17 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:38:17 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:38:17 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:38:17 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:38:17 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:38:17 [ERROR]: [No providers available in the memory]
+2025-09-25 14:38:17 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:38:18 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:38:18 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:38:18 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:38:18 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:38:18 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:38:18 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:38:18 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:38:18 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:38:18 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:38:18 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:38:18 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:38:18 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:38:18 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:38:18 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:38:18 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:38:18 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:38:18 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:38:18 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:38:18 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:38:18 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:38:18 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:38:18 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 14:38:18 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:42:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:42:41 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:42:41 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:42:41 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:42:41 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:42:41 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:42:41 [ERROR]: [No providers available in the memory]
+2025-09-25 14:42:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:42:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:42:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:42:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:42:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:42:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:42:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:42:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:42:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:42:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:42:41 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:42:41 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:42:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:42:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:42:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:42:41 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:42:41 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 14:42:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:42:41 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:42:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:42:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:44:25 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:44:25 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:44:25 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:44:25 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:44:25 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:44:25 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:44:25 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:44:25 [ERROR]: [No providers available in the memory]
+2025-09-25 14:44:25 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:44:25 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:44:25 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:44:25 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:44:25 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:44:25 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:44:26 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:44:26 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:44:26 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:44:26 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:44:26 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:44:26 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:44:26 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:44:26 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:44:26 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:45:06 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:45:06 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:45:06 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:45:06 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:45:06 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:45:06 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:45:06 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:45:06 [ERROR]: [No providers available in the memory]
+2025-09-25 14:45:06 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:45:06 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:45:06 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:45:06 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:45:07 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:45:07 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:45:07 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:45:07 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:45:07 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:45:07 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:45:07 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:45:07 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:45:07 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:45:07 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:45:07 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:45:07 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:45:07 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:45:07 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:45:07 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:45:07 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:45:07 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:45:07 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:45:07 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:45:07 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:45:07 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:45:07 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:45:07 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 14:45:07 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:17 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:17 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:46:17 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:17 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:46:17 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:46:17 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:46:17 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:46:17 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:46:17 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:46:17 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:46:18 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:46:18 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:46:17 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:46:18 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:46:17 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:46:18 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 14:46:17 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:46:18 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:46:18 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:46:18 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:46:18 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:46:18 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:46:18 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:46:18 [ERROR]: [No providers available in the memory]
+2025-09-25 14:46:18 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:48:22 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:48:22 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:48:22 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:48:22 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:48:22 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:48:22 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:48:22 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:48:22 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:48:22 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:48:22 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:48:22 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:48:22 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:48:22 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:48:22 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:48:22 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:48:22 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:48:22 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:48:22 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 14:48:22 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:48:22 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:48:22 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:48:22 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:48:22 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:48:22 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:48:22 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:48:22 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:48:22 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:48:22 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:48:22 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:48:22 [ERROR]: [No providers available in the memory]
+2025-09-25 14:48:22 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:50:21 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:50:20 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:50:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:50:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:50:21 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:50:21 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:50:21 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:50:21 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:50:21 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:50:21 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:50:21 [ERROR]: [No providers available in the memory]
+2025-09-25 14:50:21 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:51:20 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:51:20 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:51:20 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:51:20 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:51:20 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:51:20 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:51:20 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:51:20 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:51:20 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:51:20 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:51:20 [ERROR]: [No providers available in the memory]
+2025-09-25 14:51:20 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:51:21 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:51:21 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:51:21 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:51:21 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:51:21 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:51:21 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:51:21 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:51:21 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:51:21 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:51:21 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email sent successfully for integration@example.com via undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:51:21 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:51:21 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:51:21 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:51:21 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:51:21 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via undefined
+2025-09-25 14:51:21 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:52:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:52:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:52:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:52:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:52:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:52:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:52:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:52:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:52:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:52:35 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:52:35 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:52:35 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:52:35 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:52:35 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:52:35 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:52:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:52:35 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:52:35 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 14:52:35 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:52:36 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:52:35 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:52:35 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:52:35 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:52:36 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:52:36 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:52:36 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:52:36 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:52:36 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:52:36 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:52:36 [ERROR]: [No providers available in the memory]
+2025-09-25 14:52:36 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:55:15 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:55:15 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:55:15 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:55:15 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:55:15 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:55:15 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:55:15 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:55:15 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:55:15 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:55:15 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:55:15 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:55:15 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:55:15 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:55:15 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:55:15 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 14:55:15 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:55:15 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:55:15 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:55:16 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:55:16 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 14:55:16 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:55:16 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:55:16 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:55:16 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:55:16 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:55:16 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:55:16 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:55:16 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:55:16 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:55:16 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:55:16 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:55:16 [ERROR]: [No providers available in the memory]
+2025-09-25 14:55:16 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:56:45 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:56:45 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:56:45 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:56:45 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:56:45 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:56:45 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:56:45 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:56:45 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:56:45 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:56:45 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:56:45 [ERROR]: [No providers available in the memory]
+2025-09-25 14:56:45 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:57:05 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:57:05 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:57:05 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:57:05 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:57:05 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:57:05 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:57:05 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:57:05 [ERROR]: [No providers available in the memory]
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:57:05 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:57:04 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:57:04 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:57:04 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:58:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:58:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:58:10 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 14:58:10 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 14:58:10 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 14:58:10 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 14:58:10 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 14:58:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 14:58:10 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 14:58:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 14:58:10 [ERROR]: [No providers available in the memory]
+2025-09-25 14:58:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 14:58:10 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:58:10 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:58:10 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:58:10 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:58:10 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:58:10 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:58:10 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:58:10 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:58:10 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 14:58:10 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email sent successfully for integration@example.com via undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:58:10 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:58:10 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 14:58:10 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email sent successfully for test@example.com via undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 14:58:10 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 14:58:10 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via undefined
+2025-09-25 14:58:10 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 15:01:02 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:01:02 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:01:02 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:01:02 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:01:02 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:01:02 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:01:02 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:01:02 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:01:02 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:01:02 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:01:02 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:01:02 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:01:02 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:01:02 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:01:02 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:01:02 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:01:03 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:01:03 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:01:03 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:01:03 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:01:03 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:01:03 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:01:03 [ERROR]: [No providers available in the memory]
+2025-09-25 15:01:03 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:04:56 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:04:56 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:04:56 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:04:56 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:04:56 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:04:56 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:04:56 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:04:56 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:04:56 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:04:56 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:04:56 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:04:56 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:04:57 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:04:56 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:04:57 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:04:56 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:04:57 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:04:56 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:04:57 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:04:57 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:04:57 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:04:57 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:04:57 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:04:57 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:04:57 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:04:57 [ERROR]: [No providers available in the memory]
+2025-09-25 15:04:57 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:07:46 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for fail@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for fail@example.com
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for fail@example.com via mock
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Template rendered for hooktest@example.com using template "welcome"
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:07:46 [INFO]: [sendEmail] Mail options prepared for hooktest@example.com
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email sent successfully for hooktest@example.com via mock
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:07:46 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:07:46 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:07:46 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:07:46 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:07:46 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:07:46 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:07:46 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:07:46 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:07:46 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:07:46 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:07:46 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:07:46 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:07:46 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:07:46 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:07:46 [ERROR]: [No providers available in the memory]
+2025-09-25 15:07:46 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:09:38 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for hooktest@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for hooktest@example.com
+2025-09-25 15:09:38 [INFO]: [sendEmail] Template rendered for fail@example.com using template "welcome"
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for hooktest@example.com via mock
+2025-09-25 15:09:38 [INFO]: [sendEmail] Mail options prepared for fail@example.com
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email sent successfully for fail@example.com via undefined
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:09:38 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:09:38 [INFO]: [sendEmail] Email send response: undefined
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:09:38 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:09:38 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:09:38 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:09:38 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:09:38 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:09:38 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:09:38 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:09:38 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:09:38 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:09:38 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:09:38 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:09:38 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:09:38 [ERROR]: [No providers available in the memory]
+2025-09-25 15:09:38 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:12:09 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for fail@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for fail@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for fail@example.com via mock
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Template rendered for hooktest@example.com using template "welcome"
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:09 [INFO]: [sendEmail] Mail options prepared for hooktest@example.com
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email sent successfully for hooktest@example.com via mock
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:12:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:09 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:09 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:12:09 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:09 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:09 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:09 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:12:09 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:12:09 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:12:09 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:12:09 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:12:09 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:12:09 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:12:09 [ERROR]: [No providers available in the memory]
+2025-09-25 15:12:09 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for fail@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for fail@example.com
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for fail@example.com via mock
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:12:41 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:41 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:12:41 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:12:41 [INFO]: [sendEmail] Template rendered for hooktest@example.com using template "welcome"
+2025-09-25 15:12:41 [INFO]: [sendEmail] Mail options prepared for hooktest@example.com
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email sent successfully for hooktest@example.com via mock
+2025-09-25 15:12:41 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:12:41 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:12:41 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:12:41 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:12:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:12:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:12:41 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:12:41 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:12:41 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:12:41 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:12:41 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:12:41 [ERROR]: [No providers available in the memory]
+2025-09-25 15:12:41 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for fail@example.com using template "welcome"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for fail@example.com
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for fail@example.com via mock
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:09 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:09 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:10 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:10 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:10 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:14:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:09 [INFO]: [sendEmail] Template rendered for hooktest@example.com using template "welcome"
+2025-09-25 15:14:09 [INFO]: [sendEmail] Mail options prepared for hooktest@example.com
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email sent successfully for hooktest@example.com via mock
+2025-09-25 15:14:09 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:09 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:09 [ERROR]: [sendEmail] Failed for error@example.com via mock: Template Error
+2025-09-25 15:14:09 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:14:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:14:10 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:14:10 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:14:10 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:14:10 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:14:10 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:14:10 [ERROR]: [No providers available in the memory]
+2025-09-25 15:14:10 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:14:48 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:48 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:49 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:49 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:49 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:49 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:49 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:49 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:49 [INFO]: [sendEmail] Template rendered for integration@example.com using template "integration"
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Mail options prepared for integration@example.com
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email sent successfully for integration@example.com via mock
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Using cached providers
+2025-09-25 15:14:49 [ERROR]: [sendEmail] Failed for unknown recipient via mock: Recipient email address (to) is required
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:49 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Template rendered for test@example.com using template "welcome"
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:49 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:49 [INFO]: [sendEmail] Mail options prepared for test@example.com
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email sent successfully for test@example.com via mock
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:49 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Providers refreshed manually
+2025-09-25 15:14:49 [INFO]: [sendEmail] Template rendered for test1@example.com,test2@example.com using template "welcome"
+2025-09-25 15:14:49 [ERROR]: [ProviderManager] Failed to load providers from DB: DB connection failed
+2025-09-25 15:14:49 [INFO]: [sendEmail] Mail options prepared for test1@example.com,test2@example.com
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "test@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email sent successfully for test1@example.com,test2@example.com via mock
+2025-09-25 15:14:49 [INFO]: [SmtpProvider] Initialized provider "elasticmail" with user "test@elastic.com" and host "smtp.elasticemail.com"
+2025-09-25 15:14:49 [INFO]: [sendEmail] Email send response: {
+  "messageId": "abc"
+}
+2025-09-25 15:14:49 [INFO]: [ProviderManager] Loaded 2 providers from DB
+2025-09-25 15:14:49 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:14:49 [WARN]: [RetryHandler] Failed attempt via provider1: quota exceeded
+2025-09-25 15:14:49 [WARN]: [RetryHandler] Failed attempt via provider1: auth failed
+2025-09-25 15:14:49 [WARN]: [RetryHandler] Failed attempt via provider2: auth failed
+2025-09-25 15:14:49 [ERROR]: [Retry Handler] All providers failed to send the email
+2025-09-25 15:14:49 [ERROR]: [retryHandler] Provider not found fro the specific source:nonexistent
+2025-09-25 15:14:49 [ERROR]: [No providers available in the memory]
+2025-09-25 15:14:49 [WARN]: [RetryHandler] Failed attempt via provider1: temporary error
+2025-09-25 15:19:31 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-25 15:19:35 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-25 15:19:35 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:19:35 [INFO]: [sendEmail] Template rendered for rickys@itio.in using template "welcome"
+2025-09-25 15:19:35 [INFO]: [sendEmail] Mail options prepared for rickys@itio.in
+2025-09-25 15:19:35 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 15:19:35 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 15:19:43 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0007.INDP287.PROD.OUTLOOK.COM 2025-09-25T09:49:42.153Z 08DDFB8FF41F1C56]
+2025-09-25 15:19:43 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0007.INDP287.PROD.OUTLOOK.COM 2025-09-25T09:49:42.153Z 08DDFB8FF41F1C56]
+2025-09-25 15:19:43 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0007.INDP287.PROD.OUTLOOK.COM 2025-09-25T09:49:42.153Z 08DDFB8FF41F1C56]
+2025-09-25 15:19:43 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 15:19:46 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 15:19:46 [INFO]: [SmtpProvider] To: rickys@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 15:20:01 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 1011ms | Message Time: 12210ms
+2025-09-25 15:20:01 [INFO]: [sendEmail] Email sent successfully for rickys@itio.in via gmail
+2025-09-25 15:20:01 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "rickys@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 1011,
+  "messageTime": 12210,
+  "messageSize": 2365117,
+  "response": "250 2.0.0 OK  1758793799 d9443c01a7336-27ed6882204sm18302035ad.72 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "rickys@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<e04f73b4-5659-da24-a954-07cab12f47b8@gmail.com>"
+}
+2025-09-25 15:39:19 [INFO]: [Email-Package Server] Server ready, DB connected
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "gmail" with user "rickysahawork@gmail.com" and host "smtp.gmail.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "elastic" with user "rickysahawork@gmail.com" and host "smtp.elasticemail.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "zoho" with user "saharicky@zohomail.in" and host "smtp.zoho.in"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "outlook" with user "rickysahawork@outlook.com" and host "smtp-mail.outlook.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "mailersend" with user "MS_rLnNzb@test-vz9dlem0p2n4kj50.mlsender.net" and host "smtp.mailersend.net"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "smtp2go" with user "rickys@itio.in" and host "mail.smtp2go.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "mailgun" with user "rickysaha@sandboxbc0d753503814ce498c67839611dca09.mailgun.org" and host "smtp.mailgun.org"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "mailjet" with user "a8a25fc7e86159650defde54c0fcf56c" and host "in-v3.mailjet.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "Mailchimp" with user "rickys@itio.in" and host "mtp.mandrillapp.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "brevo" with user "969d7b001@smtp-brevo.com" and host "smtp-relay.brevo.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "postmark" with user "87a06baa-3ecc-48f4-8085-37b95397f2e3" and host "smtp.postmarkapp.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "yandex" with user "rickysaha@yandex.com" and host "smtp.yandex.com"
+2025-09-25 15:39:26 [INFO]: [SmtpProvider] Initialized provider "mock" with user "rickysahawork@mock.com" and host "smtp.mock.com"
+2025-09-25 15:39:27 [INFO]: [ProviderManager] Loaded 13 providers from DB
+2025-09-25 15:39:27 [INFO]: [sendEmail] Providers are loaded
+2025-09-25 15:39:27 [INFO]: [sendEmail] Template rendered for pawneshk@itio.in using template "welcome"
+2025-09-25 15:39:27 [INFO]: [sendEmail] Mail options prepared for pawneshk@itio.in
+2025-09-25 15:39:27 [INFO]: [MONITORING] Sending email to pawneshk@itio.in via outlook...
+2025-09-25 15:39:27 [INFO]: [SmtpProvider] Sending email via "outlook"
+2025-09-25 15:39:27 [INFO]: [SmtpProvider] To: pawneshk@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 15:39:36 [ERROR]: [SmtpProvider] Sending Email failed via "outlook": Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0019.INDP287.PROD.OUTLOOK.COM 2025-09-25T10:09:37.001Z 08DDFBBE94F2B40A]
+2025-09-25 15:39:36 [ERROR]: [MONITORING] Error sending email to pawneshk@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0019.INDP287.PROD.OUTLOOK.COM 2025-09-25T10:09:37.001Z 08DDFBBE94F2B40A]
+2025-09-25 15:39:36 [WARN]: [RetryHandler] Failed attempt via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0019.INDP287.PROD.OUTLOOK.COM 2025-09-25T10:09:37.001Z 08DDFBBE94F2B40A]
+2025-09-25 15:39:36 [WARN]: [MONITORING] Switching provider from outlook to gmail for pawneshk@itio.in
+2025-09-25 15:39:39 [INFO]: [SmtpProvider] Sending email via "gmail"
+2025-09-25 15:39:39 [INFO]: [SmtpProvider] To: pawneshk@itio.in, CC: saharicky20@gmail.com, BCC: saharicky0303@gmail.com, Subject: Welcome,Ricky!
+
+2025-09-25 15:40:21 [INFO]: [MONITORING] Email sent successfully to pawneshk@itio.in via gmail| Envelope Time: 1897ms | Message Time: 36620ms
+2025-09-25 15:40:21 [INFO]: [sendEmail] Email sent successfully for pawneshk@itio.in via gmail
+2025-09-25 15:40:21 [INFO]: [sendEmail] Email send response: {
+  "accepted": [
+    "pawneshk@itio.in",
+    "saharicky20@gmail.com",
+    "saharicky0303@gmail.com"
+  ],
+  "rejected": [],
+  "ehlo": [
+    "SIZE 35882577",
+    "8BITMIME",
+    "AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH",
+    "ENHANCEDSTATUSCODES",
+    "PIPELINING",
+    "CHUNKING",
+    "SMTPUTF8"
+  ],
+  "envelopeTime": 1897,
+  "messageTime": 36620,
+  "messageSize": 2365119,
+  "response": "250 2.0.0 OK  1758795020 d2e1a72fcca58-78102c2b70esm1446042b3a.101 - gsmtp",
+  "envelope": {
+    "from": "rickysahawork@gmail.com",
+    "to": [
+      "pawneshk@itio.in",
+      "saharicky20@gmail.com",
+      "saharicky0303@gmail.com"
+    ]
+  },
+  "messageId": "<1a37c01b-6173-8de8-097d-d26aba46e74f@gmail.com>"
+}

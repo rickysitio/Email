@@ -48,7 +48,7 @@ class RetryHandler {
       throw err; // otherwise throw
     }
   }
-
+  
   // ----------send Method with retry logic------------------------
   async sendWithRetry(source, mailOptions, hooks = {}) {
     // Ensure there are providers loaded

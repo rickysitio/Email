@@ -10,7 +10,7 @@ const { _fireHook } = require("../utils/helper")
 let providerManager;
 let retryHandler;
 
-//---------- helper fucntions-------
+//---------- helper fucntion-------
 // Initialize instances of providerManager and passing it to retryHandler
 function initializeInstances() {
   if (!providerManager) {

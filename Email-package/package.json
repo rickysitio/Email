@@ -4,8 +4,10 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "test": "jest"
-  },
+  "test": "jest --coverage",
+  "test:unit": "jest tests/unit",
+  "test:integration": "jest tests/integration"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",

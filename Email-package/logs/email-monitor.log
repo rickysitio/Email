@@ -2339,3 +2339,41 @@
 2025-09-25 12:54:57 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0021.INDP287.PROD.OUTLOOK.COM 2025-09-25T07:24:56.798Z 08DDFB9A44D49F45]
 2025-09-25 12:54:57 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
 2025-09-25 12:55:15 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 926ms | Message Time: 12039ms
+2025-09-25 13:22:03 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 13:22:10 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1PR01CA0165.INDPRD01.PROD.OUTLOOK.COM 2025-09-25T07:52:09.563Z 08DDFB87D80F8D4A]
+2025-09-25 13:22:10 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 13:22:28 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 847ms | Message Time: 12302ms
+2025-09-25 14:45:07 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:46:17 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:48:22 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:51:21 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:52:35 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:55:15 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 14:58:10 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:01:02 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:04:56 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:07:46 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:07:46 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:09:38 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:09:38 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:12:09 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:12:09 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:12:41 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:12:41 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:14:09 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:14:09 [ERROR]: [MONITORING] Error sending email to error@example.com via mock: Template Error
+2025-09-25 15:14:49 [ERROR]: [MONITORING] Error sending email to undefined via mock: Recipient email address (to) is required
+2025-09-25 15:19:35 [INFO]: [MONITORING] Sending email to rickys@itio.in via outlook...
+2025-09-25 15:19:43 [ERROR]: [MONITORING] Error sending email to rickys@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0007.INDP287.PROD.OUTLOOK.COM 2025-09-25T09:49:42.153Z 08DDFB8FF41F1C56]
+2025-09-25 15:19:43 [WARN]: [MONITORING] Switching provider from outlook to gmail for rickys@itio.in
+2025-09-25 15:20:01 [INFO]: [MONITORING] Email sent successfully to rickys@itio.in via gmail| Envelope Time: 1011ms | Message Time: 12210ms
+2025-09-25 15:39:27 [INFO]: [MONITORING] Sending email to pawneshk@itio.in via outlook...
+2025-09-25 15:39:36 [ERROR]: [MONITORING] Error sending email to pawneshk@itio.in via outlook: Invalid login: 535 5.7.139 Authentication unsuccessful, basic authentication is disabled. [BM1P287CA0019.INDP287.PROD.OUTLOOK.COM 2025-09-25T10:09:37.001Z 08DDFBBE94F2B40A]
+2025-09-25 15:39:36 [WARN]: [MONITORING] Switching provider from outlook to gmail for pawneshk@itio.in
+2025-09-25 15:40:21 [INFO]: [MONITORING] Email sent successfully to pawneshk@itio.in via gmail| Envelope Time: 1897ms | Message Time: 36620ms
